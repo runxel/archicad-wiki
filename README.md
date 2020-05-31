@@ -13,5 +13,6 @@ Ein ähnliches Projekt von mir gibt es auch für 🦏[Rhino + Grasshopper](https
 ---
 
 ## Lizenz
+<img src="/img/_by-nc-sa.eu.png" height="40" />
+
 Dieses Werk steht unter [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
-<img src="/img/_by-nc-sa.eu.png" height=50 />
