@@ -4,7 +4,7 @@
 
 [››› Archicad Wiki anschauen ‹‹‹](https://runxel.xyz/archicad-wiki)
 
-Deutsche Archicad-Community [![discord](https://img.shields.io/badge/Join-Discord-7289da?logo=Discord)](https://discord.gg/qzk4nmK)
+Deutsche Archicad-Community → [![discord](https://img.shields.io/badge/Join-Discord-7289da?logo=Discord)](https://discord.gg/qzk4nmK)
 
 ---
 
@@ -13,6 +13,6 @@ Ein ähnliches Projekt von mir gibt es auch für 🦏[Rhino + Grasshopper](https
 ---
 
 ## Lizenz
-<img src="/img/_by-nc-sa.eu.png" height="40" />
+<img src="/img/_by-nc-sa.eu.png" height="40" ailgn="right" />
 
 Dieses Werk steht unter [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
