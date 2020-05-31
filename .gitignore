@@ -1,8 +1,9 @@
 # .gitignore
 
 # jekyll stuff
-_site
-_posts
+_site/
+_posts/
+_img/
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
