@@ -7,12 +7,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   Runxel's Archicad Wiki liefert die besten Tipps und Tricks im täglichen
   Einsatz von Archicad.
 baseurl: /archicad-wiki
-url: "https://runxel.xyz"
+# url: "https://runxel.xyz"
 twitter_username: runxel
 github_username:  runxel
 
 # Build settings
-theme: "just-the-docs"
+remote_theme: "just-the-docs"
 
 permalink: pretty
 plugins:
