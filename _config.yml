@@ -10,6 +10,7 @@ baseurl: /archicad-wiki
 # url: "https://runxel.xyz"
 twitter_username: runxel
 github_username:  runxel
+author: Lucas Becker
 
 # Build settings
 remote_theme: pmarsceill/just-the-docs
@@ -22,6 +23,21 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+
+# theme settings:
+logo: "/assets/img/raw-logo.svg"
+# Enable support for hyphenated search words:
+search_tokenizer_separator: /[\s/]+/
+# Aux links for the upper right navigation
+aux_links:
+  "RAW auf GitHub":
+    - "//github.com/runxel/archicad-wiki"
+# Footer content appears at the bottom of every page's main content
+footer_content: "Copyright &copy; Lucas Becker. Veröffentlicht unter <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY-NC-SA</a>."
+# Google Analytics [disabled for now]
+# ga_tracking: UA-5555555-55
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
