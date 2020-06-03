@@ -1,1 +1,16 @@
-/* place for CSS overrides */
+//
+// Custom overrides, so updating can be easy
+//
+
+blockquote {
+    background: $sidebar-color;
+    margin: 0;
+    margin-bottom: $sp-3;
+    padding: $sp-2;
+    padding-left: $sp-6;
+    border-left: 4px solid $border-color;
+
+    p {
+        margin: 0;
+    }
+}

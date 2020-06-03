@@ -3,7 +3,7 @@
 # https://github.com/runxel/archicad-wiki
 title: Runxel's Archicad Wiki
 # email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Runxel's Archicad Wiki liefert die besten Tipps und Tricks im täglichen
   Einsatz von Archicad.
 baseurl: /archicad-wiki
@@ -11,9 +11,11 @@ baseurl: /archicad-wiki
 twitter_username: runxel
 github_username:  runxel
 author: Lucas Becker
+lang: de
 
 # Build settings
-remote_theme: pmarsceill/just-the-docs
+# remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
 
 permalink: pretty
 plugins:
@@ -30,14 +32,19 @@ logo: "/assets/img/raw-logo.svg"
 search_tokenizer_separator: /[\s/]+/
 # Aux links for the upper right navigation
 aux_links:
-  "RAW auf GitHub":
+  "R·A·W auf GitHub":
     - "//github.com/runxel/archicad-wiki"
 # Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; Lucas Becker. Veröffentlicht unter <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY-NC-SA</a>."
+footer_content: "Copyright &copy; Lucas Becker // Veröffentlicht unter <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY-NC-SA</a>. // Alle Warenzeichen auf dieser Seite sind Eigentum ihrer jeweiligen Inhaber."
 # Google Analytics [disabled for now]
 # ga_tracking: UA-5555555-55
 
-
+# seo
+# see also https://jekyll.github.io/jekyll-seo-tag/usage/
+tagline: Die besten Tipps und Tricks zum Arbeiten in Archicad.
+twitter:
+  username: runxel
+  card: summary
 
 # Exclude from processing.
 # The following items will not be processed, by default.
