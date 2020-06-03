@@ -7,7 +7,7 @@ _img/
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
+
 
 # don't include links
 *.lnk
