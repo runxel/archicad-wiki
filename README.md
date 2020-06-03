@@ -8,11 +8,11 @@ Deutsche Archicad-Community → [![discord](https://img.shields.io/badge/Join-Di
 
 ---
 
-Ein ähnliches Projekt von mir gibt es auch für 🦏[Rhino + Grasshopper](https://runxel.xyz/rhino-secrets).
+Für [Rhino 🦏 + Grasshopper 🦗](https://runxel.xyz/rhino-secrets) gibt es ein ganz ähnliches Projekt von mir.
 
 ---
 
 ## Lizenz
-<img src="/img/_by-nc-sa.eu.png" height="40" align="right" />
+<img src="/assets/img/by-nc-sa.eu.png" height="40" align="right" />
 
 Dieses Werk steht unter [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
