@@ -12,7 +12,7 @@ twitter_username: runxel
 github_username:  runxel
 
 # Build settings
-remote_theme: "just-the-docs"
+remote_theme: pmarsceill/just-the-docs
 
 permalink: pretty
 plugins:
