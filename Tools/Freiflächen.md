@@ -6,11 +6,12 @@ permalink: /tools/freiflaeche
 ---
 # Freifläche
 
-### Freiflächen nur mit Daten
+## Freiflächen nur mit Daten
 Hat man keine Vermesserdaten zur Hand, oder benötigt eine Freifläche mit ganz bestimmten Höhen, so eignet sich die folgende Methode:
 
 ![Koordinaten](../img/freifläche-koordinaten.png)
-    Nur eine handvoll Daten?
+
+_Nur eine handvoll Daten?_
 
 Mit dem Objekt "Koordinaten Bemaßung" zunächst die benötigten Punkte auslegen, die benötigten Höhen eingeben.
 Man erstellt sich nun eine _Interaktive Auswertung_, um an die Koordinaten zu kommen. In den Schema-Einstellungen bei "<samp>Felder hinzufügen</samp>" auf das Dreeick und "<samp>Bibiliothekselementparameter</samp>".  
@@ -31,7 +32,7 @@ Als Video hier verfügbar (mit zusätzlichem GDL-Scripting Exkurs):
 (_Dank an Lukas Oelmüller_)
 
 
-### Höhenlinien
+## Höhenlinien
 Die [so erstellte](#freiflaechen-nur-mit-daten) Freifläche, aber auch die meisten anderen, haben jedoch eine Schwäche: Die fehlende Höhenlinien. Die Triangulierung der Freifläche ist im 2D schlicht nutzlos (zumindest für eine ordentliche Plandarstellung).
 
 Die eine Möglichkeit besteht darin, die Freifläche als Objekt zu speichern und von einem [anderem Objekt](https://www.archiradar.it/en/3d-objects/membership-objects/archicad/13-contour-maker.html) zu `CALL`en, aber wir wollen gerne etwas, das _live_ ist und Änderungen sofort reflektiert.
@@ -61,6 +62,6 @@ Auch eine akkurate Schnittfläche lässt sich so erstellen: Die Morphfläche wur
 Mit wenig Fantasie lassen sich noch ganz andere Verwendungen dieser Methode erdenken. Seien es nun Geschosshöhen im Städtebau, oder Meterrisse im 3D, etc...
 
 
-### Morphersatz
+## Morphersatz
 Zugegeben: Morphs sind nicht das gerade das schönste Werkzeug in Archicad. Es hat seine [Berechtigung](#höhenlinien), aber für manche Anwendungsfälle ist es leichter, andere Werkzeuge zu verwenden. Die hohe Flexibilität Archicads ist einer der größten Vorteile gegenüber anderen CAD-Systemen.  
 Für die Häuser einer städtebaulichen Umgebung ziehe ich es z.B. vor Freiflächen zu nehmen – Dachformen sind so ein Kinderspiel!
