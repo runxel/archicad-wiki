@@ -23,7 +23,9 @@ Ich freue mich über [Hinweise](https://github.com/runxel/archicad-wiki/issues)!
 
 ---
 
-Mein [Archicad Template + Attribute](https://github.com/runxel/archicad-attributes), mein [Archicad Workspace](https://github.com/runxel/archicad-workspaces), und meine handgezimmerten [Archicad Objekte](https://github.com/runxel/ArchiCAD-Objects).
+### Ihr könnt nicht genug von Archicad bekommen?
+
+Hier findest Du mein [Archicad Template + Attribute](https://github.com/runxel/archicad-attributes), mein [Archicad Workspace](https://github.com/runxel/archicad-workspaces), und meine handgezimmerten [Archicad Objekte](https://github.com/runxel/ArchiCAD-Objects).
 
 _Sharing is caring!_
 

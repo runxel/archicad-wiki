@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Datei Workflows
+title: Dateiformate Workflows
 permalink: /datei-io/
 nav_order: 2
 has_toc: false
@@ -26,6 +26,7 @@ Archicad kann PDFs im Grundriss platzieren, und auch in seine Einzelteile zerleg
 
 ### DAE
 Collada Dateien sind direkt in Archicad importierbar. Dabei wird ein _Objekt_ erzeugt.
+Auch der Export zu Collada funktioniert sehr gut und stellt ein solides Austauschformat für Geometrie dar (z.B. nach Blender).
 
 ### STL
 Stereolithographie Dateien lassen sich direkt in Archicad importieren. Dabei wird ein _Morph_ erzeugt.  
@@ -52,12 +53,12 @@ Andere Formate als `e57` sind mit [CloudCompare](https://www.danielgm.net/cc/) z
 
 ### XYZ
 Archicad kann xyz Dateien automatisch in Freiflächen übersetzen: "Ablage > Interoperabililtät > Freifläche aus Vermesser-Daten erstellen".  
-Ob die Daten im Gauß-Krüger- oder im UTM-Koordinatensystem vorliegen, dürfte im Alltag vernachlässigbar sein, allerdings ist darauf hinzuweisen, dass die Koordinaten eine Abweichung von ~4cm auf 100 Meter besitzen.[<sup>1</sup>](https://www.lgln.niedersachsen.de/startseite/online_angebote_amp_services/hilfe_amp_support/frequently_asked_questions_faq/was-unterscheidet-die-gau-krueger-abbildung-von-der-utm-abbildung-51596.html)<sup>,</sup> [<sup>2</sup>](https://www.kreis-paderborn.de/kreis_paderborn/buergerservice/lebenslagen/dienstleistungen/62-utm-koordinaten.php)  
-In Deutschland wurde vor einigen Jahren damit begonnen, sämtliche Daten der öfentlichen Hand in UTM (ETRS89) umzuwandeln. Damit haben UTM-Koordinaten offiziellen Charakter.
+Ob die Daten im Gauß-Krüger- oder im UTM-Koordinatensystem vorliegen, dürfte im Alltag vernachlässigbar sein, allerdings ist darauf hinzuweisen, dass die Koordinaten eine Abweichung von ~4cm auf 100 Meter zueinander besitzen.[<sup>1</sup>](https://www.lgln.niedersachsen.de/startseite/online_angebote_amp_services/hilfe_amp_support/frequently_asked_questions_faq/was-unterscheidet-die-gau-krueger-abbildung-von-der-utm-abbildung-51596.html)<sup>,</sup> [<sup>2</sup>](https://www.kreis-paderborn.de/kreis_paderborn/buergerservice/lebenslagen/dienstleistungen/62-utm-koordinaten.php)  
+In Deutschland wurde vor einigen Jahren damit begonnen, sämtliche Daten der öffentlichen Hand in UTM (ETRS89) umzuwandeln. Damit haben UTM-Koordinaten offiziellen Charakter, und Eingaben im GK-System werden vielerorts von den Ämtern schon gar nicht mehr akzeptiert.
 
 <details>
 
-Die Datei muss aus drei Spalten bestehen, und es dürfen nur numerische Eingaben vorkommen. Sollte Text gefunden werden, wird die Zeile automatisch als Kommentar gewertet und übersprungen. Es darf am Anfang als eine numerische ID vorangestellt sein (ergibt 1+3 Spalten). Zwischen den einzelnen Spalten ist ein Seperator einzusetzen, dessen konsistente Verwendung essentiell ist. Der Seperator ist wahlweise ein Leerzeichen, ein Tabulator oder ein Semikolon. Kommas und Punkte sind auch akzeptiert, man sollte aber darauf verzichten diese zu verwenden, da es zu leicht mit dem Dezimaltrenner verwechselt wird. Werden diese Regeln nicht eingehalten, so quittiert Archicad das mit einer Fehlermeldung.
+Die Datei muss aus drei Spalten bestehen, und es dürfen nur numerische Eingaben vorkommen. Sollte Text gefunden werden, wird die Zeile automatisch als Kommentar gewertet und übersprungen. Es darf am Anfang eine numerische ID vorangestellt sein (ergibt dann 1+3 Spalten). Zwischen den einzelnen Spalten ist ein Seperator einzusetzen, dessen konsistente Verwendung essentiell ist. Der Seperator ist wahlweise ein Leerzeichen, ein Tabulator oder ein Semikolon. Kommata und Punkte werden auch akzeptiert, man sollte aber darauf verzichten diese zu verwenden, da es zu leicht mit dem Dezimaltrenner verwechselt werden kann. Werden diese Regeln nicht eingehalten, so quittiert Archicad das mit einer Fehlermeldung.
 
 </details>
 
