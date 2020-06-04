@@ -6,12 +6,12 @@ permalink: /workarounds/
 ---
 # Cheats & Workarounds
 
-### Symbollinien
+## Symbollinien
 Zieht man eine Polylinie mit einem Symbollinientyp, passiert es leicht, dass die Ecken nicht besonders ansehnlich sind, denn die Linie muss ja irgendwie um die Ecke geführt werden. Diese Glitches kann man leicht dadurch loswerden, dass man die Eckpunkte leicht verrundet. Tipp: Gibt man als Verrundungsradius `0` ein, wird Archicad automatisch die kleinstmögliche Verrundung durchführen.
 
 ![Runde Ecken](../img/runde-polylinien-ecke.png)
 
-### Abgeschrägte Wände
+## Abgeschrägte Wände
 Für Wände, die _einseitig_ in ihrer Höhe abgeschrägt sind, kann man ein Fenster verwenden, z.B. das [FreeFormWindow](https://bimcomponents.com/GSM/Details/8405).
 Legt man ein dreieckiges Fenster (natürlich ohne Rahmen usw.) in die Ecke – in der _Längsansicht_ gesehen – der Wand, schneidet es die Schräge heraus. Man erhält auf diese Weise sogar eine korrekte Grundrissdarstellung dazu.
 
@@ -28,13 +28,15 @@ Anschließend lassen sich problemlos – korrekte Schnittdarstellung inkl. – G
 
 ![Abgeschrägte Wand mit Formsteinen, Profilemanager](../img/wand-schräg-5-profil.png)
 
-### Punktbereinigung
+## Punktbereinigung
 Im Normalfall möchte man seine Linien und Flächen gerne so clean wie möglich halten. Kolineare Punkte sind, sofern nicht ein bestimmter Grund dafür existiert, nicht erwünscht. Das manuelle Löschen von Punkten (Einen _Node_ auf einen anderen ziehen) ist recht mühsam.  
 Es gibt jedoch einen Trick, um sich gleich einer ganze Reihe an Punkten zu entledigen. Das funktioniert sogar, wenn die Punkte nicht kolinear sind:
 
 ![Punktbereinigung](../img/punktbereinigung-1.png)
 
 Wir ziehen uns einen Markierungsrahmen um die Punkte, die wir loswerden wollen. Anschließend verwenden den sonst eher sparsam eingesetzten Befehl <samp>Längenänderung</samp>, mit dem wir den Punkt im Beispiel ganz links auf den Eckpunkt (der nicht im Markierungsrahmen steckt!) rechts.
+
+![Punktbereinigung](../img/punktbereinigung-2-howto.png)
 
 #### Das Ergebnis
 ... kann sich sehen lassen:

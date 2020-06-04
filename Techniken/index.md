@@ -3,6 +3,7 @@ layout: default
 permalink: /techniken
 title: Modelltechniken
 has_children: true
+has_toc: false
 ---
 # Techniken in Archicad
 
@@ -10,39 +11,43 @@ Ein großer Vorteil von Archicad ist die Flexibilität der Mittel: Lässt sich e
 
 Im Folgenden stelle ich einige der klassischen Techniken vor, die nicht alle unbedingt im Handbuch stehen, aber zum Handwerkszeug gehören sollten.
 
+Grundlage zum Thema ['Verschneidung'](https://helpcenter.graphisoft.de/handbuecher/handbucher-zu-archicad-23/hilfe-zu-archicad-23/elemente-des-virtuellen-geb-udes/konstruktions-elemente/element-verschneidungen/spezifische-elementverschneidungen-und-verbindungen/).
+
+<br>
 
 ### Achsen-Management
-Ein sicherer Umgang mit den blauen Referenzachsen ist unerlässlich, denn sie sind der Schlüssel zur korrekter Darstellung, wie z.B. Wandverschneidungen. Durch geschicktes Verschieben oder Manipulieren der Achsen unter Zuhilfenahme der Anschlussreihenfolge sind viele eher triviale Probleme bereits lösbar.  
-Große Hilfe ist dabei der Befehl "<samp>Wand-Referenzlinie ändern</samp>".
+Ein sicherer Umgang mit den blauen Referenzachsen ist unerlässlich, denn sie sind der Schlüssel zur korrekter Darstellung, wie z.B. Wandverschneidungen. Durch geschicktes Verschieben oder Manipulieren der Achsen unter Zuhilfenahme der [Anschlussreihenfolge](/tools/wand/#anschlussreihenfolge) sind viele eher triviale Probleme bereits lösbar.  
+Große Hilfe ist dabei der Befehl "<samp>Wand-Referenzlinie ändern</samp>".  
+
 
 ### Extrusionrichtung ändern
 Eine klassische Technik, um Stellen zu modellieren, die sonst nicht so leicht nachzubauen wären. Dabei dreht man die Extrusionsrichtung (meistens) lotrecht zur eigentlichen, "logischen" Richtung.
-Beispiel: Das Endstück eines Balken soll besonders geformt sein, auf GDL verzichtet werden. Lösung: Im Profilmanager die Längsansicht zeichnen und dann quer zum Balken platzieren. Eine andere Möglichkeit wäre der Einsatz [schneidender Luft](#Schneidende-Luft).
+Beispiel: Das Endstück eines Balken soll besonders geformt sein, auf GDL verzichtet werden. Lösung: Im Profilmanager die Längsansicht zeichnen und dann quer zum Balken platzieren. Eine andere Möglichkeit wäre der Einsatz [schneidender Luft](#schneidende-luft).
 
-![Extrusionsrichtung ändern um Balkenteile zu modellieren](/img/techniken-extrusionsrichtung-ändern.png)
+![Extrusionsrichtung ändern um Balkenteile zu modellieren](../img/techniken-extrusionsrichtung-ändern.png)
 
 ### Stützen zur Verschneidung
-Diese Technik ist nach dem "Erfinder" [James Murray](https://www.onland.info/archives/2010/07/fixing_wall_corners_with_columns.php) auch als "Classical Murray" bekannt. Das ist vor allem nützlich, wenn man komplexe Wandverschneidungen auflösen muss. Dabei wird am Schnittpunkt eine wandhohe Stütze mit einem Profil platziert. Vorteil ist dabei die tadellose Darstellung in 2D und 3D. 
+Diese Technik ist nach dem "Erfinder" [James Murray](https://www.onland.info/archives/2010/07/fixing_wall_corners_with_columns.php) auch als "Classical Murray" bekannt. Das ist vor allem nützlich, wenn man komplexe Wandverschneidungen auflösen muss. Dabei wird am Schnittpunkt eine wandhohe Stütze mit einem Profil platziert. Vorteil ist dabei die tadellose Darstellung in 2D und 3D.  
+Archicad hat in den letzten Versionen einige Verbesserungen bei den Wandverschneidungen erfahren, sodass diese Technik zum Glück mittlweile seltener nötig ist, weil T/Y- und K-Verbindungen OOTB korrekt verschneiden.
 
 ### Schneidende Luft
 Seit Archicad 17 gibt es die neuen Baustoffe, welche sich automatisch miteinander auf Grundlage einer Priorität verschneiden.
 Dieses System lässt sich ausnutzen, in dem man sich einen Baustoff erstellt, der im 3D nicht sichtbar ist (eben z.B. Luft), und eine sehr hohe Verschneidungspriorität besitzt. 
 So lassen sich in der überwiegenden Anzahl aller Fälle der Einsatz von SEO vermeiden.
 
-![Schneidende Luft zum Modellieren](/img/techniken-schneidende-luft.png)
+![Schneidende Luft zum Modellieren](../img/techniken-schneidende-luft.png)
     Ähnliche Technik wie oben, nur wird diesmal nicht hinzugefügt, sondern weggenommen.
 
 Siehe auch [Jared Banks](http://www.shoegnome.com/2015/12/17/control-joints-strong-air-archicad/)
 
 Tipp: Es muss nicht immer gleich eine dieser hier vorgestllten Methoden sein! So manches lässt sich in den Werkzeugen selbst lösen, wie z.B. mit einem verjüngten Segment im Träger-Tool (ab Archicad 23):
 
-![Verjüngtes Segment Trägerwerkzeug](/img/techniken-schneidende-luft.png)
+![Verjüngtes Segment Trägerwerkzeug](../img/techniken-schneidende-luft.png)
 
 ### Profile
-Profile gehören nicht erst seit den Modifikatoren zm versatilsten, was Archicad zu bieten hat. 
-Ein extensiver Einsatz ist empfehlenswert!
+Profile gehören nicht erst seit den Modifikatoren zum versatilsten, was Archicad zu bieten hat. Ein extensiver Einsatz ist empfehlenswert!  
 Ein paar Anmerkungen:
-- es kann sinnvoll sein, Luft in Profilen mit zu modellieren, siehe auch [schneidende Luft](#Schneidende-Luft)
+- es kann sinnvoll sein, Luft in Profilen mitzumodellieren, siehe auch [schneidende Luft](#Schneidende-Luft)
 
 
 ### SEO
