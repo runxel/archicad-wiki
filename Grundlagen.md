@@ -2,6 +2,7 @@
 layout: default
 title: Grundlagen
 permalink: /basis/
+nav_order: 1
 ---
 # Grundlagen
 
