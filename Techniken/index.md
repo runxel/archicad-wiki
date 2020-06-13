@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /techniken
+permalink: /techniken/
 title: Modelltechniken
 has_children: true
 has_toc: false
@@ -51,7 +51,7 @@ Ein paar Anmerkungen:
 
 
 ### SEO
-Solid Element Operation
+_Solid Element Operation_  
 Achtung! Bauteile, die in einer SEO eingesetzt werden, nehmen trotzdem weiterhin an der prioritätsbasierten Baustoffverschneidung teil! Das kann ungewollte Auswirkungen haben, zumal da die SEO-Körper nicht gelöscht werden dürfen (SEO ist _immer_ live und non-destruktiv). Es ist daher unbedingt empfehlenswert
 - einen SEO-Baustoff anzulegen, mit einer sehr geringen Priorität, und
-- alle SEO-Körper, die rein dem Abzug dienen, und sonst nicht sichtbar sein sollen, auf eine eigene Ebene mit der Verschneidungszahl `0` zu legen, umso auch die Verschneidung der SEO-Körper untereinander zu verhindern.
+- alle SEO-Körper, die rein dem Abzug dienen, und sonst nicht sichtbar sein sollen, auf eine eigene Ebene mit der Verschneidungszahl `0` zu legen, um so auch eine Verschneidung der SEO-Körper untereinander zu verhindern.

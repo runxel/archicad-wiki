@@ -14,7 +14,7 @@ Anschließend lässt sich die neue Eigenschaft als Kriterium verwenden, nicht nu
 
 ### Berechnungen
 Die Eigenschaften in Archciad sind ein mächtiges Tool, und mit der Möglichkeit eigene Berechnungen einzubringen, wird es es noch besser.
-Im Folgenden ein "Best Of", direkt für Copy&Paste geeignet.
+Im Folgenden ein "Best Of", direkt für Copy&Paste geeignet. Man muss allerdings immer auf den richtigen Datentyp achten ("String", "Länge", etc.), der am Ende bei der Berechnung herauskommt. Die Icons bei der Parameterauswahl geben einen Hinweis darauf, wessen Typs sie sind.  
 
 <div class="code-example" markdown="1">
 

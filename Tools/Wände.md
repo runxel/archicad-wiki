@@ -27,3 +27,7 @@ Die Lage der blauen Referenzlinien: (Reinzeichnungsmodus ist _aus_, extra farbig
 
 ![Lage der Referenzlinien](../img/wand-anschlussreihenfolge-6.png)
 
+## Bossen & Rustizierungen
+Für Bossenmauerwerk und andere, ähnliche Steinmauerwerksapplikationen lässt sich die _Fassade_ einsetzen. Das funktioniert auch für einfachere Fälle, in denen man z.B. Nuten zeigen will (auch wenn dies über [kleine Stützen und Träger](/techniken/#schneidende-luft) genauso möglich ist).  
+Im einfachsten Fall lässt man dabei die Profile leer und verwendet nur Panele, für speziellere Fälle kann man in die Fassadenprofile ein Profil aus dem Profilmanager laden. Eine genaue Beschreibung mit etlichen Beispielen findet sich [hier](https://hey-archicad.de/2019/05/29/steinmauerwerk-bossenmauerwerk/).  
+Eine Alternative ist der Einsatz des _Wandzubehörs_, oder die Verwendung des _Trussmakers_. Bei dieser zieht man den Truss mittels _SEO_ von der Wand ab.

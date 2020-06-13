@@ -41,6 +41,10 @@ Shape Files, kommen zumeist bei GIS Anwendungen für 2D Inhalte zum Einsatz. Kan
 - Zunächst in [QGis](https://qgis.org/) importieren, dort bei Bedarf _reprojizieren_, dann als [DXF](#dxf) exportieren, oder...
 - Import über Rhino in Grasshopper (entweder durch integrierten Importer, der jedoch etwas 'picky' ist, oder über ein Plugin, wie [ShrimpGIS](https://github.com/AntonelloDN/ShrimpGIS)), dann dort Export als DWG/DXF)
 
+### GeoJSON
+Ähnlich wie [SHP](#shp) ist [GeoJSON](https://geojson.org/) ein allgemeines Format, um geographisches Strukturen zweidimensional abzubilden.  
+Kann in [QGis](https://qgis.org/) importiert und von dort in eine [DXF](#dxf) exportiert werden.
+
 ### City GML
 Normierte 3D Darstellung von GIS Anwendungen, und oft auch bei offiziellen Stellen (wie Landesvermessungsämtern) zu bekommen.  
 Umwandlung mittels des [FZKViewers](https://www.iai.kit.edu/1302.php) des Karlsruher Instituts für Technologe (KIT) in [STL](#stl) oder IFC.
@@ -79,7 +83,8 @@ Das native Dateiformat von 3ds Max `.max` kann nur von 3ds Max selbst gelesen we
 Die obj-Datei in [Meshlab](#meshlab) importieren und als [STL](#stl) oder als [DAE](#dae) abspeichern: "File > Export Mesh as…"
 
 ### RFA
-Revit Families und Revit Dateien (.rvt) können zumindest mit dem [Plugin von Bim6x](https://bim6x.com/store) ihrer Geometrie habhaft gemacht werden.
+Revit Families und Revit Dateien (.rvt) können zumindest mit dem [Plugin von Bim6x](https://bim6x.com/store) ihrer Geometrie habhaft gemacht werden.  
+[Helpcenter Artikel](https://helpcenter.graphisoft.com/knowledgebase/85861/)
 
 ### RVT
 Siehe [RFA](#rfa)

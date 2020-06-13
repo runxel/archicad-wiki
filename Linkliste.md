@@ -27,6 +27,7 @@ Ein Sammelort für Links, mehr oder weniger sortiert. Muss nicht immer zwangslä
 - [ArchicadUser](https://www.archicaduser.de/)
 - [Archicadstuff](http://archicadstuff.blogspot.com/)
 - [nb Bim](https://nbbim.wordpress.com/blog-posts/)
+- [Hey Archicad](https://hey-archicad.de/)
 
 
 ## 3D Objekte

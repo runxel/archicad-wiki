@@ -28,6 +28,9 @@ Anschließend lassen sich problemlos – korrekte Schnittdarstellung inkl. – G
 
 ![Abgeschrägte Wand mit Formsteinen, Profilemanager](../img/wand-schräg-5-profil.png)
 
+## Bodentiefe Fenster
+Die sicherste Variante für Bodentiefe Fenster, bei der auch die Wohnflächenberechnung stimmt, ist die Aktivierung der _"Heizkörpernische"_ im Fensterobjekt. Es gibt aber auch [noch andere Wege](https://hey-archicad.de/2019/11/22/bodentiefe-fenster/).
+
 ## Punktbereinigung
 Im Normalfall möchte man seine Linien und Flächen gerne so clean wie möglich halten. Kolineare Punkte sind, sofern nicht ein bestimmter Grund dafür existiert, nicht erwünscht. Das manuelle Löschen von Punkten (Einen _Node_ auf einen anderen ziehen) ist recht mühsam.  
 Es gibt jedoch einen Trick, um sich gleich einer ganze Reihe an Punkten zu entledigen. Das funktioniert sogar, wenn die Punkte nicht kolinear sind:
