@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rendern in Archicad
+title: Bibliotheken und Objekte
 permalink: /bib/
 # has_children: true
 ---
