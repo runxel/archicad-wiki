@@ -42,7 +42,7 @@ Siehe auch [Jared Banks](http://www.shoegnome.com/2015/12/17/control-joints-stro
 
 Tipp: Es muss nicht immer gleich eine dieser hier vorgestllten Methoden sein! So manches lässt sich in den Werkzeugen selbst lösen, wie z.B. mit einem verjüngten Segment im Träger-Tool (ab Archicad 23):
 
-![Verjüngtes Segment Trägerwerkzeug](../img/techniken-schneidende-luft.png)
+![Verjüngtes Segment Trägerwerkzeug](../img/techniken-tools-eigen.png)
 
 ### Profile
 Profile gehören nicht erst seit den Modifikatoren zum versatilsten, was Archicad zu bieten hat. Ein extensiver Einsatz ist empfehlenswert!  

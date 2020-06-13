@@ -15,7 +15,7 @@ lang: de
 
 # Build settings
 # remote_theme: pmarsceill/just-the-docs
-theme: just-the-docs
+# theme: just-the-docs
 
 permalink: pretty
 plugins:
