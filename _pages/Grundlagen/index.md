@@ -13,12 +13,12 @@ Old, but [Gold](http://web.archive.org/web/20140704092311/http://www.aecbytes.co
 
 ## Darstellung in Archicad
 
-**Was** dargestellt wird, regelt die _Ebenenkombination_.  
-**Wie viel** gezeigt wird, legt man in der _Strukturdarstellung_ fest.  
-**Wann** (Zeitstrahl) etwas dargestellt wird, regelt der _Umbaufilter_, der die einzige Sichtbarkeitssteuerung neben den Ebenen in AC darstellt.  
-**Wie** (Detaillevel) es dargestellt wird, regelt die _Modelldarstellung_. (MVO betrifft auch das _Was_, indem die Sichtbarkeit von "ebenenlosen" Elementen, wie Subelemente und Öffnungen geregelt wird.)  
-**Wie** (Aussehen) die Elemente erscheinen, regeln _Stiftset_ und _Grafische Überschreibung_, welche genau das macht, was der Name suggeriert.  
-**Wo** (horizontal) geschnitten wird, regelt die _Grundriss-Schnittebene_.  
+**Was** dargestellt wird, regelt die _**Ebenenkombination**_.  
+**Wie viel** gezeigt wird, legt man in der _**Strukturdarstellung**_ fest.  
+**Wann** (Zeitstrahl) etwas dargestellt wird, regelt der _**Umbaufilter**_, der die einzige Sichtbarkeitssteuerung neben den Ebenen in AC darstellt.  
+**Wie** (Detaillevel) es dargestellt wird, regelt die _**Modelldarstellung**_. (MVO betrifft auch das _Was_, indem die Sichtbarkeit von "ebenenlosen" Elementen, wie Subelemente und Öffnungen geregelt wird.)  
+**Wie** (Aussehen) die Elemente erscheinen, regeln _**Stiftset**_ und _**Grafische Überschreibung**_, welche genau das macht, was der Name suggeriert.  
+**Wo** (horizontal) geschnitten wird, regelt die _**Grundriss-Schnittebene**_.  
 
 _Was_ und _Wann_ betreffen auch die Verschneidungen von Modellelementen.
 

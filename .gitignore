@@ -12,3 +12,6 @@ _img/
 # don't include links
 *.lnk
 *.url
+
+# don't include WIP, notes, etc.
+_notready/

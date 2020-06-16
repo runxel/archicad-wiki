@@ -2,7 +2,7 @@
 # Jekyll config for
 # https://github.com/runxel/archicad-wiki
 title: Runxel's Archicad Wiki
-# email: your-email@example.com
+# email: mail@runxel.xyz
 description: >-
   Runxel's Archicad Wiki liefert die besten Tipps und Tricks im täglichen
   Einsatz von Archicad.
@@ -47,6 +47,14 @@ twitter:
   username: runxel
   card: summary
 
+# include for collection
+include:
+  - _pages
+
+collections:
+  pages:
+    output: true
+    
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
