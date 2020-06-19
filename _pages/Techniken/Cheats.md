@@ -37,7 +37,7 @@ Es gibt jedoch einen Trick, um sich gleich einer ganze Reihe an Punkten zu entle
 
 ![Punktbereinigung](../img/punktbereinigung-1.png)
 
-Wir ziehen uns einen Markierungsrahmen um die Punkte, die wir loswerden wollen. Anschließend verwenden den sonst eher sparsam eingesetzten Befehl <samp>Längenänderung</samp>, mit dem wir den Punkt im Beispiel ganz links auf den Eckpunkt (der nicht im Markierungsrahmen steckt!) rechts.
+Wir ziehen uns einen Markierungsrahmen um die Punkte, die wir loswerden wollen. Anschließend verwenden den sonst eher sparsam eingesetzten Befehl <samp>Längenänderung</samp>, mit dem wir den Punkt im Beispiel ganz links auf den Eckpunkt (der nicht im Markierungsrahmen steckt!) rechts ziehen.
 
 ![Punktbereinigung](../img/punktbereinigung-2-howto.png)
 
