@@ -68,7 +68,7 @@ Die Datei muss aus drei Spalten bestehen, und es dürfen nur numerische Eingaben
 
 ### FBX
 Weit verbreitetes, aber proprietäres Austauschformat für 3D Inhalte.  
-Muss in ein anderes Format umgewandelt werden, z.B. mittels dem kostenfreien [Autodesk FBX Converter](https://www.autodesk.com/developer-network/platform-technologies/fbx-converter-archives).
+Muss in ein anderes Format umgewandelt werden, z.B. mittels dem kostenfreien [Autodesk FBX Converter](https://www.autodesk.com/developer-network/platform-technologies/fbx-converter-archives).  
 Alternativ gibt es mit [Modelport](https://archvista.com/modelport/) ein sehr potentes Plugin für Archicad.
 
 ### 3DS
@@ -83,7 +83,7 @@ Das native Dateiformat von 3ds Max `.max` kann nur von 3ds Max selbst gelesen we
 Die obj-Datei in [Meshlab](#meshlab) importieren und als [STL](#stl) oder als [DAE](#dae) abspeichern: "File > Export Mesh as…"
 
 ### RFA
-Revit Families und Revit Dateien (.rvt) können zumindest mit dem [Plugin von Bim6x](https://bim6x.com/store) ihrer Geometrie habhaft gemacht werden.  
+Revit Families (`.rfa`) und Revit Dateien (`.rvt`) können zumindest mit dem [Plugin von Bim6x](https://bim6x.com/store) ihrer Geometrie habhaft gemacht werden.  
 [Helpcenter Artikel](https://helpcenter.graphisoft.com/knowledgebase/85861/)
 
 ### RVT
@@ -102,7 +102,7 @@ Um stark facettierte Objekte zu entschärfen wählt man:
 
 ![Meshlab Einstellungen](/img/meshlab-simplification-settings.png)
 
-Dort kann man dann die <samp>Target number of faces</samp> langsam herunterdrehen – "Apply" drücken nicht vergessen. Je nach Komplexität sollte man versuchen am Ende unter 10'000 Faces zu bekommen. Wichtig: "<samp>Preserve Boundary of the mesh</samp>" sollte angehakt sein, damit das Element nicht "schrumpft". "<samp>Preserve Topology</samp>" kann ebenfalls zu besseren Ergebnissen führen.
+Dort kann man dann die <samp>Target number of faces</samp> langsam herunterdrehen – "Apply" drücken nicht vergessen. Je nach Komplexität sollte man versuchen am Ende mindestens unter 10'000 Faces zu kommen. Wichtig: "<samp>Preserve Boundary of the mesh</samp>" sollte angehakt sein, damit das Element nicht "schrumpft". "<samp>Preserve Topology</samp>" kann ebenfalls zu besseren Ergebnissen führen.
 
 Je nachdem, wo das Objekt ursprünglich herkam, sind die Achsen "verdreht" – es gibt leider keine einheitliche Konvention. Um sicher zu gehen hilft:  
 "<samp>Render > Show Axis</samp>"
