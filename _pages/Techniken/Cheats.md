@@ -28,6 +28,11 @@ Anschließend lassen sich problemlos – korrekte Schnittdarstellung inkl. – G
 
 ![Abgeschrägte Wand mit Formsteinen, Profilemanager](../img/wand-schräg-5-profil.png)
 
+## Gaubenwände
+Besonders Gaubenwände, bei denen natürlich die korrekte 2D-Darstellung essentiell ist, profitieren von der eben vorgestellten [Methode](#abgeschrägte-wände).
+
+![Gaubenwand](../img/wand-gaube.png)
+
 ## Bodentiefe Fenster
 Die sicherste Variante für Bodentiefe Fenster, bei der auch die Wohnflächenberechnung stimmt, ist die Aktivierung der _"Heizkörpernische"_ im Fensterobjekt. Es gibt aber auch [noch andere Wege](https://hey-archicad.de/2019/11/22/bodentiefe-fenster/).
 
