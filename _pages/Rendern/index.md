@@ -10,9 +10,19 @@ has_children: true
 
 Der in Archicad integrierte _Cinerenderer_ aus Cinema 4D (vom ebenfalls zum Nemetschek-Konzern gehörenden Maxon) ist eine mächtige Geschichte, die aber auf den zweiten Blick, nachdem man auf die "Erweiterten Optionen" geschaut hat, ganz schön einschüchternd sein kann.
 
+Ganz prinzipielle Grundkenntnisse werden vorausgesetzt. Wenn man schon mal gerendert hat – egal welches System – hilft das sicherlich. Manches bleibt vielleicht trotzdem verwirrend, da die Begrifflichkeiten sich durchaus leicht unterscheiden können. Da hilft ein Blick ins [Glossar](/rendern/glossar/) weiter!
+
+Für manches in dieser unoffiziellen Dokumentation gibt es keine Referenzen, ich habe es nur durch ausprobieren, Hinweise im Netz, oder schlichtweg Raten herausgefunden. Daher: _»Take it with a grain of salt!«_  
+Nur weil es hier steht, muss es nicht richtig sein, auch wenn diese Anleitung selbstverständlich nach bestem Wissen und Gewissen erstellt wurde. Der Autor schließt ausdrücklich jegliche Haftung für abgestürzte Rechner, verlorene Dateien, verpasste Deadlines, oder sonstige Pannen aus.  
+Fällt euch eine Falschinfo auf, so bitte ich um einen Hinweis.
 
 
+Cinema bringt eigentlich nicht nur einen Renderer mit, sondern 3:
+- Standard
+- Physical
+- der GPU-basierte ProRender, [(detaillierte Erklärung)](https://help.maxon.net/de/index.html#56141)
 
+In Archicad hat der ProRender noch keinen Einzug gefunden.
 
 ---
 
