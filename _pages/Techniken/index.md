@@ -47,7 +47,8 @@ Tipp: Es muss nicht immer gleich eine dieser hier vorgestllten Methoden sein! So
 ### Profile
 Profile gehören nicht erst seit den Modifikatoren zum versatilsten, was Archicad zu bieten hat. Ein extensiver Einsatz ist empfehlenswert!  
 Ein paar Anmerkungen:
-- es kann sinnvoll sein, Luft in Profilen mitzumodellieren, siehe auch [schneidende Luft](#Schneidende-Luft)
+- Im Profilmanager ist der Ursprungspunkt wesentlich, denn er markiert die Lage der Referenzlinie. Verinfacht gesagt ist für Wände **außen** _links_ (siehe [Handbuch](https://helpcenter.graphisoft.de/handbuecher/handbucher-zu-archicad-22/hilfe-zu-archicad-22/elemente-des-virtuellen-geb-udes/konstruktions-elemente/komplexe-profile/profilursprung-im-profil-manager/) oder [auch](https://www.youtube.com/watch?v=Rowz4fWECo4))  
+- Es kann sinnvoll sein, Luft in Profilen mitzumodellieren, siehe auch [schneidende Luft](#Schneidende-Luft)
 
 
 ### SEO
