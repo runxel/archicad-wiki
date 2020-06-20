@@ -14,3 +14,23 @@ blockquote {
         margin: 0;
     }
 }
+
+details {
+    background-color: lighten($color: $sidebar-color, $amount: 70);
+    border: 1px solid $grey-dk-000;
+
+    & > :not(summary) {
+        padding: 0 15px;
+    }
+
+    ul, ol {
+        margin-left: 15px;
+    }
+}
+
+summary {
+    cursor: pointer;
+    margin-bottom: 6px;
+    background-color: $sidebar-color;
+    border-bottom: 1px dashed $grey-dk-000;
+}
