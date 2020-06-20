@@ -32,7 +32,7 @@ Die Entnahme erfolgt nach einem weiteren Klick auf 'ok' ganz automatisch. Achtun
 ![Platzierte Objekte einbetten](../img/bib-entnahme.png)
 
 
-<details>
+<details markdown="1">
 <summary>Alte Methode …</summary>
 
 Hier gezeigt am Beispiel einer Hebeschiebetür aus der schweizer Standard-Bibliothek:
