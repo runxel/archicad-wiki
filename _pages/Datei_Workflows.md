@@ -101,7 +101,7 @@ Die Oberfläche und die Termini sind gewöhnungsbedürftig, darum kurz eine Erl�
 Um stark facettierte Objekte zu entschärfen wählt man:  
 "<samp>Filter > Remeshing, Simplification and Reconstruction > Simplification: Quadric Edge Collapse Decimation</samp>".
 
-![Meshlab Einstellungen](/img/meshlab-simplification-settings.png)
+![Meshlab Einstellungen](../img/meshlab-simplification-settings.png)
 
 Dort kann man dann die <samp>Target number of faces</samp> langsam herunterdrehen – "Apply" drücken nicht vergessen. Je nach Komplexität sollte man versuchen am Ende mindestens unter 10'000 Faces zu kommen. Wichtig: "<samp>Preserve Boundary of the mesh</samp>" sollte angehakt sein, damit das Element nicht "schrumpft". "<samp>Preserve Topology</samp>" kann ebenfalls zu besseren Ergebnissen führen.
 
