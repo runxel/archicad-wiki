@@ -12,7 +12,7 @@ search_exclude: true
 Deutsche Archicad Community auf Discord: 
 [![discord](https://img.shields.io/badge/Join-Discord-7289da?logo=Discord)](https://discord.gg/qzk4nmK)
 
-Ursprünglich eine private Sammlung, aber nun »Working with the Garage door up«[<sup>1</sup>](https://notes.andymatuschak.org/z21cgR9K3UcQ5a7yPsj2RUim3oM2TzdBByZu), als öffentliches Wiki. (Der Begriff "Wiki" ist eigentlich irreführend – aber dafür schön kurz –, denn dieses Projekt verfolgt ja nicht das Ziel einer Vollständigkeit.)  
+Ursprünglich eine private Sammlung, aber nun »Working with the Garage door up«[*](https://notes.andymatuschak.org/z21cgR9K3UcQ5a7yPsj2RUim3oM2TzdBByZu), als öffentliches Wiki. (Der Begriff "Wiki" ist eigentlich irreführend – aber dafür schön kurz –, denn dieses Projekt verfolgt ja nicht das Ziel einer Vollständigkeit.)  
 Etliche der Techniken sind einem gewissen Kreis an "Power-Usern" sicherlich längst bekannt, andere Tricks vielleicht weniger. Viel Spaß beim Durchstöbern und Entdecken.  
 Ich freue mich über [Hinweise](https://github.com/runxel/archicad-wiki/issues)!  
 
@@ -25,7 +25,7 @@ Ich freue mich über [Hinweise](https://github.com/runxel/archicad-wiki/issues)!
 
 ### Ihr könnt nicht genug von Archicad bekommen?
 
-Hier findest Du mein [Archicad Template + Attribute](https://github.com/runxel/archicad-attributes), mein [Archicad Workspace](https://github.com/runxel/archicad-workspaces), und meine handgezimmerten [Archicad Objekte](https://github.com/runxel/ArchiCAD-Objects).
+Hier findest Du mein [Archicad Template + Attribute](https://github.com/runxel/archicad-attributes), mein [Archicad Workspace](https://github.com/runxel/archicad-workspaces), und meine handgezimmerten [Archicad Objekte](https://runxel.xyz/archicad-objects).
 
 _Sharing is caring!_
 
