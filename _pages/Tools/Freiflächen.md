@@ -3,6 +3,7 @@ layout: default
 title: Freiflächen
 parent: Archicad Tools
 permalink: /tools/freiflaeche
+nav_order: 3
 ---
 # Freifläche
 

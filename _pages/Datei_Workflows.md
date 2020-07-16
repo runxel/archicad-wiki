@@ -11,7 +11,7 @@ has_toc: false
 
 **Folgende Formate sind direkt importierbar:**  
 (Entweder über Drag&Drop oder über Ablage > Interoperabilität > Dazuladen…)  
-mod, 2dl, emf, wmf, dwf, dwg, HPGL (.plt), IFC, skp, kmz (Google Earth), 3dm, dae (Collada), stl
+mod, 2dl, emf, wmf, dwf, [dwg](#dwg), HPGL (.plt), IFC, skp, kmz (Google Earth), 3dm, [dae](#dae) (Collada), stl
 
 ### DWG
 Direkt in Archicad importierbar.  
@@ -37,12 +37,19 @@ Oft sind zu importierende Meshes jedoch sehr komplex, wodurch diese Methode u.U.
 [Siehe auch](https://helpcenter.graphisoft.com/knowledgebase/44321/)
 
 ### SHP
-Shape Files, kommen zumeist bei GIS Anwendungen für 2D Inhalte zum Einsatz. Kann durch Archicad nicht direkt gelesen werden. 2 mögliche Wege:
+Shape Files sind das beliebteste Dateiformat von GIS Anwendungen um 2D Inhalte abzubilden. Kann durch Archicad nicht direkt gelesen werden. 2 mögliche Wege:
 - Zunächst in [QGis](https://qgis.org/) importieren, dort bei Bedarf _reprojizieren_, dann als [DXF](#dxf) exportieren, oder...
-- Import über Rhino in Grasshopper (entweder durch integrierten Importer, der jedoch etwas 'picky' ist, oder über ein Plugin, wie [ShrimpGIS](https://github.com/AntonelloDN/ShrimpGIS)), dann dort Export als DWG/DXF)
+- Import über Rhino in Grasshopper (entweder durch integrierten Importer, der jedoch etwas 'picky' ist, oder über ein Plugin, wie [ShrimpGIS](https://github.com/AntonelloDN/ShrimpGIS)), dann dort Export als DWG/DXF)  
+
+Shape Files bestehen eigentlich aus 3–4 Dateien: `.shp` (enthält die eigentliche Geometrie), `.dbf` (Attribute als dBase), `.shx` (Indexdatei), und bisweilen eine `.prj` Datei, in der Projektionsinformationen enthalten sind.
+Shapefiles haben eine Größenbeschränkung von 2 GB. Als Ersatz kommt auch oft [GeoPackage](#geopackage) zum Einsatz.
 
 ### GeoJSON
-Ähnlich wie [SHP](#shp) ist [GeoJSON](https://geojson.org/) ein allgemeines Format, um geographisches Strukturen zweidimensional abzubilden.  
+Ähnlich wie [SHP](#shp) ist [GeoJSON](https://geojson.org/) ein allgemeines Format, um geographische Strukturen zweidimensional abzubilden.  
+Kann in [QGis](https://qgis.org/) importiert und von dort in eine [DXF](#dxf) exportiert werden.
+
+### GeoPackage
+GeoPackage `.gpkg` ist ein Ersatz für [Shape Files](#shp) ohne Einschränkungen. Darin sind alle nötigen Informationen in einer einzigen Datei zusammengefasst.  
 Kann in [QGis](https://qgis.org/) importiert und von dort in eine [DXF](#dxf) exportiert werden.
 
 ### City GML
@@ -58,7 +65,7 @@ Andere Formate als `e57` sind mit [CloudCompare](https://www.danielgm.net/cc/) z
 ### XYZ
 Archicad kann xyz Dateien automatisch in Freiflächen übersetzen: "Ablage > Interoperabililtät > Freifläche aus Vermesser-Daten erstellen".  
 Ob die Daten im Gauß-Krüger- oder im UTM-Koordinatensystem vorliegen, dürfte im Alltag vernachlässigbar sein, allerdings ist darauf hinzuweisen, dass die Koordinaten eine Abweichung von ~4cm auf 100 Meter zueinander besitzen.[<sup>1</sup>](https://www.lgln.niedersachsen.de/startseite/online_angebote_amp_services/hilfe_amp_support/frequently_asked_questions_faq/was-unterscheidet-die-gau-krueger-abbildung-von-der-utm-abbildung-51596.html)<sup>,</sup> [<sup>2</sup>](https://www.kreis-paderborn.de/kreis_paderborn/buergerservice/lebenslagen/dienstleistungen/62-utm-koordinaten.php)  
-In Deutschland wurde vor einigen Jahren damit begonnen, sämtliche Daten der öffentlichen Hand in UTM (ETRS89) umzuwandeln. Damit haben UTM-Koordinaten offiziellen Charakter, und Eingaben im GK-System werden vielerorts von den Ämtern schon gar nicht mehr akzeptiert.
+Weiterhin wurde in Deutschland vor einigen Jahren damit begonnen, sämtliche Daten der öffentlichen Hand in UTM (ETRS89) umzuwandeln. Damit haben UTM-Koordinaten offiziellen Charakter, und Eingaben im GK-System werden vielerorts von den Ämtern schon gar nicht mehr akzeptiert.
 
 <details markdown="1">
 <summary>Details XYZ …</summary>
@@ -76,6 +83,9 @@ Alternativ gibt es mit [Modelport](https://archvista.com/modelport/) ein sehr po
 Dateiformat von Autodesk 3ds Max, kann nicht über "Dazuladen" importiert werden, sondern hat stattdessen einen eigenen Dialog unter "Interoperabilität".
 Erstellt ein _Objekt_. Allerdings werden dabei _keine_ Solids erstellt (Schnittdarstellungen werden ev. nicht wie erhofft aussehen).  
 Kann vorher mit [Meshlab](#meshlab), wenn gewünscht, vereinfacht werden.
+
+### KMZ
+KMZ Dateien sind komprimierte `.kml` Dateien. KML (_"Keyhole Markup Language"_) ist ein XML-basiertes Format, das Punkte, Linien, Polygone, sowie mit der Geometrie verbundene Attribute unterstützt. Bekannt ist das Format vor allem durch die Verwendung in Google Earth. [°](http://justsolve.archiveteam.org/wiki/KML)
 
 ### MAX
 Das native Dateiformat von 3ds Max `.max` kann nur von 3ds Max selbst gelesen werden. Selbst alle mir bekannten Konvertierer benötigen ein installiertes 3ds auf dem Rechner.
