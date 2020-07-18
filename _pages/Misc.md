@@ -29,7 +29,7 @@ Wir alle wissen, dass 2D Linien nie im 3D zu sehen sind. Als Alternative bieten 
 
 ### Element ID Manager
 Die Einstellungen des _Element ID Managers_ (gut versteckt unter "<samp>Dokumentation > Listen & Berechnungen > ~</samp>) können gespeichert werden und auf anderen Rechnern wiederverwendet werden: [<sup>Quelle</sup>](https://archicad-talk.graphisoft.com/viewtopic.php?f=34&t=69156)  
-Beim Speichern der Einstellungen <samp>Set bearbeiten > Speichern als…</samp> wird ein Ordner namens <samp>EIDM Settings <ACVersionnr.Buildnr></samp> innerhalb von
+Beim Speichern der Einstellungen <samp>Set bearbeiten > Speichern als…</samp> wird ein Ordner namens <samp>EIDM Settings ACVersionnr.Buildnr</samp> innerhalb von
 ```
 C:\Users\<UserProfileName>\AppData\Roaming\GRAPHISOFT   #win
 ~/Library/Preferences/GRAPHISOFT/                       #mac
