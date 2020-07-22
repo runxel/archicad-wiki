@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Dateiformate Workflows
-permalink: /cross-platform/
+title: Cross Plattform
+permalink: /cross-plattform/
 # nav_order: 
 has_toc: false
 ---
-# Cross Platform
+# Cross Plattform
 
 Archicad läuft sowohl auf Windows, als auch auf Systemen mit Apple macOS. In den meisten Fällen klappt das Betreiben beider Systeme nebeneinander reibungslos. Manchmal jedoch kann es Fälle geben, die ein Eingreifen erfordern.
 
