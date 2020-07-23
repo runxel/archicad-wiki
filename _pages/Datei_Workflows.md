@@ -46,7 +46,7 @@ Shapefiles haben eine Größenbeschränkung von 2 GB. Als Ersatz kommt auch oft 
 
 ### GeoJSON
 Ähnlich wie [SHP](#shp) ist [GeoJSON](https://geojson.org/) ein allgemeines Format, um geographische Strukturen zweidimensional abzubilden.  
-Kann in [QGis](https://qgis.org/) importiert und von dort in eine [DXF](#dxf) exportiert werden.
+Kann in [QGis](https://qgis.org/) importiert und von dort in eine [DXF](#dxf) exportiert werden. Eine Vorschau im Browser ist auf [Kepler.gl](https://kepler.gl/demo) möglich.
 
 ### GeoPackage
 GeoPackage `.gpkg` ist ein Ersatz für [Shape Files](#shp) ohne Einschränkungen. Darin sind alle nötigen Informationen in einer einzigen Datei zusammengefasst.  
