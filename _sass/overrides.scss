@@ -18,6 +18,7 @@ blockquote {
 details {
     background-color: lighten($color: $sidebar-color, $amount: 70);
     border: 1px solid $grey-dk-000;
+    margin-bottom: 1em;
 
     & > :not(summary) {
         padding: 0 15px;
