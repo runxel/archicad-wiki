@@ -7,7 +7,8 @@ nav_order: 2
 ---
 # Treppen
 
-Die [Verzugstypen](https://helpcenter.graphisoft.de/handbuecher/handbucher-zu-archicad-21/hilfe-zu-archicad-21/themen-extra/verzugstypen-in-archicad/) in Archicad.
+### Verzugstypen
+Die [Verzugstypen](https://helpcenter.graphisoft.com/de/user-guide/125046/) <!-- [archive.today link](http://archive.today/FarmJ) --> in Archicad.
 
 ### Mit dem Treppenwerkzeug Rampen erstellen
 Wie das geht, ist in diesem [Helpcenterartikel](https://helpcenter.graphisoft.com/knowledgebase/75566/) beschrieben.
