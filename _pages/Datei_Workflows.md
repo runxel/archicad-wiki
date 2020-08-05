@@ -57,7 +57,8 @@ Normierte 3D Darstellung von GIS Anwendungen, und oft auch bei offiziellen Stell
 Umwandlung mittels des [FZKViewers](https://www.iai.kit.edu/1302.php) des Karlsruher Instituts für Technologe (KIT) in [STL](#stl) oder IFC.
 
 ### e57
-Archicad kann e57 Punktwolken einlesen, allerdings ist es sehr empfehlenswert große Punktwolken mit [CloudCompare](https://www.danielgm.net/cc/) auszudünnen – zur Erhaltung von Nerven und Rechenleistung.
+Archicad kann e57 Punktwolken einlesen, allerdings ist es sehr empfehlenswert große Punktwolken mit [CloudCompare](https://www.danielgm.net/cc/) auszudünnen – zur Erhaltung von Nerven und Rechenleistung.  
+Eine Alternative ist die Verwendung eines [Plugins](https://bimm-gmbh.de/portfolio/bimmtool/), welches die Handhabung direkt in Archicad erleichtert und aufgemessene Punkte in native Elemente umwandeln kann.
 
 ### Andere Punktwolken
 Andere Formate als `e57` sind mit [CloudCompare](https://www.danielgm.net/cc/) zu konvertieren. Manche allerdings, wie `LGS` von Leica, sind Hersteller-spezifisch und können – ein klassisches 'Lock-In' Manöver – nur mit spezieller Software bearbeitet werden.
