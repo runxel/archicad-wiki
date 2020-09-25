@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Umbaufilter in Archicad
+title: Umbaufilter
 permalink: /reno/
 ---
-# Der Umbaufilter in Archicad
+# Der Umbaufilter
 
 ## Darstellung
 Um transparente Abbruchdarstellungen in den Schnitten/Ansichten zu erreichen, gibt es folenden Workaround:
