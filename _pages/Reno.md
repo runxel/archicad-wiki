@@ -6,7 +6,7 @@ permalink: /reno/
 # Der Umbaufilter
 
 ## Darstellung
-Um transparente Abbruchdarstellungen in den Schnitten/Ansichten zu erreichen, gibt es folenden Workaround:
+Um transparente Abbruchdarstellungen in den Schnitten/Ansichten zu erreichen, gibt es folgenden Workaround:
 
 1. "Transparenz" in den "Ansichts-Einstellungen" aktivieren
 1. Damit nun nicht alle Elemente hinter den Fenstern angezeigt werden die "Durchlässigkeit" des Fensterglasmaterials auf `49` stellen – dies gilt in der Ansichtsdarstellung als nicht transparent und wird opak dargestellt.
