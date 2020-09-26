@@ -11,7 +11,8 @@ has_toc: false
 
 **Folgende Formate sind direkt importierbar:**  
 (Entweder über Drag&Drop oder über Ablage > Interoperabilität > Dazuladen…)  
-mod, 2dl, emf, wmf, dwf, [dwg](#dwg), HPGL (.plt), IFC, skp, kmz (Google Earth), 3dm, [dae](#dae) (Collada), stl
+mod, 2dl, emf, wmf, dwf, [dwg](#dwg), HPGL (.plt), IFC, skp, [kmz](#kmz) (Google Earth), [3dm](#3dm), [dae](#dae) (Collada), [stl](#stl)  
+<sub>[Vollständige Auflistung](https://helpcenter.graphisoft.com/knowledgebase/25765/)</sub>
 
 ### DWG
 Direkt in Archicad importierbar.  
@@ -58,7 +59,8 @@ Umwandlung mittels des [FZKViewers](https://www.iai.kit.edu/1302.php) des Karlsr
 
 ### e57
 Archicad kann e57 Punktwolken einlesen, allerdings ist es sehr empfehlenswert große Punktwolken mit [CloudCompare](https://www.danielgm.net/cc/) auszudünnen – zur Erhaltung von Nerven und Rechenleistung.  
-Eine Alternative ist die Verwendung eines [Plugins](https://bimm-gmbh.de/portfolio/bimmtool/), welches die Handhabung direkt in Archicad erleichtert und aufgemessene Punkte in native Elemente umwandeln kann.
+Eine Alternative ist die Verwendung eines [Plugins](https://bimm-gmbh.de/portfolio/bimmtool/), welches die Handhabung direkt in Archicad erleichtert und aufgemessene Punkte in native Elemente umwandeln kann.  
+Das kostenlose [BIMcollab ZOOM](https://support.bimcollab.com/en/zoom/free-ifc-viewer) kann neben IFC auch e57 einlesen und referenzieren.
 
 ### Andere Punktwolken
 Andere Formate als `e57` sind mit [CloudCompare](https://www.danielgm.net/cc/) zu konvertieren. Manche allerdings, wie `LGS` von Leica, sind Hersteller-spezifisch und können – ein klassisches 'Lock-In' Manöver – nur mit spezieller Software bearbeitet werden.
@@ -100,6 +102,9 @@ Revit Families (`.rfa`) und Revit Dateien (`.rvt`) können zumindest mit dem [Pl
 
 ### RVT
 Siehe [RFA](#rfa)
+
+### SAF
+Neu hinzugekommen in Archicad 24 ist das `Structural Analysis Format`, oder kurz [SAF](http://saf.guide/) – tatsächlich aber handelt es sich um gar kein eigenes Dateiformat, sondern ist eine Excel Datei.
 
 ---
 

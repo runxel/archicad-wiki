@@ -27,7 +27,7 @@ Mittlerweile muss man Elemente aus geladenen Bibliotheken nicht mehr händisch o
 
 ![Bibliothekenmanager](../img/bib-manager.png)
 
-Die Entnahme erfolgt nach einem weiteren Klick auf 'ok' ganz automatisch. Achtung: Die Bibliothek aus der die Objekte entnommen werden, wird in diesem Schritt automatisch entladen. Der Haken bei "Keine doppelten Elemente einbetten" sorgt dafür, dass z.B. von mehreren verschiedenen Objekten aufgerufene Makros auch nur tatsächlich einmal übernommen werden.
+Die Entnahme erfolgt nach einem weiteren Klick auf 'ok' ganz automatisch. Achtung: Die Bibliothek, aus der die Objekte entnommen werden, wird in diesem Schritt automatisch entladen. Der Haken bei "<samp>Keine doppelten Elemente einbetten</samp>" sorgt dafür, dass z.B. von mehreren verschiedenen Objekten aufgerufene Makros auch nur tatsächlich einmal übernommen werden.
 
 ![Platzierte Objekte einbetten](../img/bib-entnahme.png)
 

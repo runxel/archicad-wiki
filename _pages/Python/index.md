@@ -2,7 +2,7 @@
 layout: default
 permalink: /python/
 title: Python + Archicad
-# has_children: true
+has_children: true
 ---
 # Python Verbindung
 
@@ -34,7 +34,7 @@ Um die Skripte zu schreiben und zu bearbeiten, brauchen wir einen Editor. Das is
 
 
 ## Beispiele
-Graphisoft hat auf [seiner Webseite](https://graphisoft.com/downloads/python) einige Beispielskripte inklusive Demo-Projekten zusammengetragen. Beides lässt sich nach dem Login mit der GraphisoftID kostenlos herunterladen.
+Graphisoft hat auf seiner Webseite einige [Beispielskripte](https://graphisoft.com/downloads/python) inklusive Demo-Projekten zusammengetragen. Beides lässt sich nach dem Login mit der GraphisoftID kostenlos herunterladen.
 
 ## Details
 Zum einen gibt es die allgemeine Dokumentation des [JSON Interfaces](https://archicadapi.graphisoft.com/JSONInterfaceDocumentation/#Introduction).

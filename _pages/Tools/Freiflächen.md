@@ -60,7 +60,7 @@ Man bemerke, dass die Ebene der Freifläche inzwischen ausgeblendet wurde – di
 
 Auch eine akkurate Schnittfläche lässt sich so erstellen: Die Morphfläche wurde im aktuellen Geschoss auf Meterhöhe gehoben und bekam eine Deckschraffur zugewiesen.
 
-Mit wenig Fantasie lassen sich noch ganz andere Verwendungen dieser Methode erdenken. Seien es nun Geschosshöhen im Städtebau, oder Meterrisse im 3D, etc...
+Ein weiterer Vorteil ist die Möglichkeit ein assoziatives Etikett zu platzieren, welches die Höhe der Morphfläche ausgibt. Mit wenig Fantasie lassen sich noch ganz andere Verwendungen dieser Methode erdenken. Seien es nun Geschosshöhen im Städtebau, oder Meterrisse im 3D, etc...
 
 
 ## Morphersatz
