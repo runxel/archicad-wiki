@@ -10,7 +10,7 @@ In der Registry lassen sich einige Optionen einstellen, die in den normalen Eins
 
 <div class="code-example" markdown="1">
 
-Im <samp>Mutliplizieren</samp> Dialog ist standardmäßig die sehr selten gebrauchte Option <samp>"Pfad auswählen"</samp> angehakt. Das ist recht nervig. Daher sollte man dem Schlüssel `Pick Path` auf `0` setzen. Damit wird diese Option deaktiviert.
+Im <samp>Multiplizieren</samp> Dialog ist standardmäßig die sehr selten gebrauchte Option <samp>"Pfad auswählen"</samp> angehakt. Das ist recht nervig. Daher sollte man dem Schlüssel `Pick Path` auf `0` setzen. Damit wird diese Option deaktiviert.
 
 </div>
 ```
