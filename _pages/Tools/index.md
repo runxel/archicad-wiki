@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Archicad Tools
+title: Tools
+nav_order: 5
 has_children: true
 permalink: /tools
 ---
