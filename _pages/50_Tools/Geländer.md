@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Geländer
-parent: Archicad Tools
+parent: Tools
 permalink: /tools/geländer/
 nav_order: 4
 ---

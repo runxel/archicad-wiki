@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Treppen
-parent: Archicad Tools
+parent: Tools
 permalink: /tools/treppe/
 nav_order: 2
 ---

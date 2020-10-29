@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fenster
-parent: Archicad Tools
+parent: Tools
 permalink: /tools/fenster
 nav_order: 3
 ---

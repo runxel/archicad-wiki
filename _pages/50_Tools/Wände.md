@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wände
-parent: Archicad Tools
+parent: Tools
 permalink: /tools/wand/
 nav_order: 1
 ---
