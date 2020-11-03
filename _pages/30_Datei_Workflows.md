@@ -108,6 +108,12 @@ Neu hinzugekommen in Archicad 24 ist das `Structural Analysis Format`, oder kurz
 
 ---
 
+## Export
+### Tipps zum DWG-Export
+- Ein einfacher Weg für die [Ebenenkonvertierung](https://www.davidkehr.com/ebenenkonvertierung-in-archicad/).
+
+---
+
 ## Meshlab
 [Meshlab](http://www.meshlab.net/) herunterladen, falls man es noch nicht auf dem Rechner hat.
 Sollte Meshlab beim Import von Dateien in einem "<samp>Post-Open Processing</samp>" Dialog fragen: "<samp>Unify Duplicated Vertices?</samp>", so ist dies zu bejahen.

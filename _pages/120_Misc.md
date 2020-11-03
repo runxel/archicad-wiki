@@ -13,6 +13,7 @@ Im 3D-Fenster können Elemente auch nach ihrem Höhenwert automatisch die Gescho
 Dabei ist zu beachten, dass im <samp>Multiplizieren</samp> Dialog eine ähnliche Option vorhanden ist. Wird der entsprechende Haken gesetzt, ist anschließend auch im Tracker <samp>Nach Höhenwert</samp> gesetzt!  
 ![Verschieben nach Höhenwert](../img/nach-hoehenwert-2.png)
 
+
 ### Autotexte verwenden
 Archicad verwendet das Konzept von sogenannten Autotexten, das sind Schlüsselwörter in eckigen Klammern (ala `<AUTOTEXT>`). Archicad wertet diese aus und ersetzt dann an dieser Stelle diesen Text durch den entsprechenden hinterlegten Text.  
 Diese Autotexte funktionieren auch in GDL Objekten und selbst in im Quelltext davon.  
@@ -74,10 +75,15 @@ Um Schriftarten in einer IA schnell zu ändern, lässt sich die Auswertung als X
 ```
 [<sup>Quelle</sup>](https://archicad-talk.graphisoft.com/viewtopic.php?p=314694#p314694)
 
+
 ### Offscreen Paletten
 Besonders wenn man mit Laptop + einem externen Bildschirm arbeitet, kann es passieren, dass unterwegs (ohne zweiten Bildschirm) manche Paletten zu fehlen scheinen und sich auch nicht "wiederbeleben" lassen.  
 Eine Lösung dafür ist [hier dokumentiert](https://lucasbecker.de/posts/how-to-get-back-missing-archicad-palettes).  
 Tipp: Für solche Umstände zwei Arbeitsumgebungen pflegen!
+
+
+### Codemeter Lizenzserver
+[David Kehr](https://www.davidkehr.com/raspberry-pi-linux-als-codemeter-lizenzserver/) beschreibt in diesem Artikel, wie man einen Raspberry Pi als Dongleserver verwendet.
 
 
 ### Rien ne va plus

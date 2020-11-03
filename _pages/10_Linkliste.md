@@ -44,6 +44,22 @@ Siehe dazu [hier](/rendern/materialien/#anbieter)
 - [Pixabay](https://pixabay.com/)
 
 
+## Archicad Objekte (GDL)
+- [BIMcomponents](https://bimcomponents.com/)
+- [ArchiBase](https://archibase.co/) 
+- [ArchiUp](https://archiup.com/en/) – Echte Produkte, aber teils nicht als `.gsm`
+- [Modlar](https://www.modlar.com/) – Bringt auch News und einen Podcast
+- [Caroma](https://specify.caroma.com.au/bim-library-landing/archicad) – Speziell fürs Bad
+- [Martele](https://www.martela.com/downloads/3d-objects-and-material-libraries)
+- [ArchiRadar](https://www.archiradar.it/en/3d-objects/free-objects/viewcategory/1-archicad.html) <sup>teils $$$</sup>
+- [Bim&Co](https://www.bimandco.com/en/bim-objects)
+- [NBS Library](https://www.nationalbimlibrary.com/en/archicad/) – vor allem interessant für Anwender aus UK/Kanada/Australien
+- [Éptár](https://www.eptar.hu/solutions_downloads?lang=en) <sup>$$$</sup>
+- [OpenGDL](http://www.opengdl.org/Default.aspx?tabid=979)
+- [Skoldinovs Objekte](http://www.skoldinov.spb.ru/obj.php?lang=en)
+- [Runxels Objekte](https://runxel.xyz/archicad-objects/)
+
+
 ## 3D Objekte
 Oft auftauchende Frage: Wo bekomme ich 3D Modelle her?
 
@@ -53,6 +69,7 @@ Oft auftauchende Frage: Wo bekomme ich 3D Modelle her?
 - Fahrzeuge auf [hum3d](https://hum3d.com/3d-models/vehicles/)
 - Geheimtipp: [SketchUp Warehouse](https://3dwarehouse.sketchup.com/)
 - [Ivy Generator](http://graphics.uni-konstanz.de/~luft/ivy_generator)
+- [Arcat](https://www.arcat.com/bim/bim_objects.shtml) – "Big Red Book"; leider nur noch Revit Families und DWG
 
 
 ## Geoinformationen
@@ -94,3 +111,4 @@ Zum Schluss die Datei als DXF aus QGis exportieren und in Archicad verwenden.
 
 ## Sonstiges
 - Wie klebe ich etwas am besten zusammen?: [This to That](http://thistothat.com/)
+- [Scan2Cad](https://www.scan2cad.com/) – Alte, eingescannte Pläne schnell umwandeln; selbst Vector->Vector ist möglich
