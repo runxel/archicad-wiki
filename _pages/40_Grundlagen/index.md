@@ -129,7 +129,7 @@ Die resultierende Verschneidung hängt von den _Baustoff-Prioritäten_ der Eleme
 - Blau: Verschneidung nach Baustoff-Prioriät auf Schichtniveau, erfordert aber Verschmelzen/Anpassen
 - Rot: Nur auf Elementebene mittels Solid Elements Operations
 
-Anmerkung: Die symbolische Grundriss-Darstellung "überschreibt" eine echte 3D-Projektion. Ansonsten ist die Darstellung aber in allen Sichte korrekt und übereinstimmend.  
+Anmerkung: Die symbolische Grundriss-Darstellung "überschreibt" eine echte 3D-Projektion. Ansonsten ist die Darstellung aber in allen Sichten korrekt und übereinstimmend.  
 _Ebenen-Verschneidungsgruppen_ bieten eine zusätzliche Möglichkeit der Steuerung. Elemente, deren Ebenen unterschiedliche Verschneidungsnummern haben, verschneiden sich nie. Sonderfall: Elemente in der Ebene mit der Verschneidungsgruppennummer `0` (null) verschneiden nicht einmal untereinander.
 
 
