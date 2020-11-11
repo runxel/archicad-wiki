@@ -133,6 +133,10 @@ Anmerkung: Die symbolische Grundriss-Darstellung "überschreibt" eine echte 3D-P
 _Ebenen-Verschneidungsgruppen_ bieten eine zusätzliche Möglichkeit der Steuerung. Elemente, deren Ebenen unterschiedliche Verschneidungsnummern haben, verschneiden sich nie. Sonderfall: Elemente in der Ebene mit der Verschneidungsgruppennummer `0` (null) verschneiden nicht einmal untereinander.
 
 
+## Favoriten
+Gute Favoriten anzulegen ist eine Kunst, aber hilfreich! Solange man alleine arbeitet, ist das Unterfangen ohnehin unproblematisch, im Teamwork wird es schwieriger (Oft verwendet nur der Ersteller selbst die Favoriten). Bibliothekselemente behalten immer ihre Grundeinstellung – dort hilft nur der Favorit.  
+Die Grundeinstellung aller Werkzeuge ist die letzte Einstellung vor dem Sichern. Folgender Workflow hat sich etabliert: alle Werkzeuge einmal in ihrer gewünschten "Vorlagengrundeinstellung" platzieren, anschließend mit der Pipette einmal alles aufnehmen. Alle Elemente löschen und als `.tpl` anlegen.
+
 ## Troubleshooting
 
 ["The solution is probably easy but not obvious."](https://blog.graphisoftus.com/tips-and-tricks/easy-but-not-obvious)
