@@ -44,3 +44,25 @@ summary {
 samp {
     margin: 0 5px;
 }
+
+table {
+    .header {
+        background: $sidebar-color;
+        font-weight: bold;
+    }
+    .right {
+        text-align: right;
+    }
+    .center {
+        text-align: center;
+    }
+    .green {
+        background: #DDFFED;
+    }
+    .blue {
+        background: #E9EEFE;
+    }
+    .red {
+        background: #FECEB0;
+    }
+}

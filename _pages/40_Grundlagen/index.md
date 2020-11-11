@@ -41,89 +41,93 @@ Die resultierende Verschneidung hängt von den _Baustoff-Prioritäten_ der Eleme
 <table>
 <thead>
   <tr>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky">Wand<br></th>
-    <th class="tg-0pky">Unterzug</th>
-    <th class="tg-0pky">Stütze</th>
-    <th class="tg-0pky">Decke</th>
-    <th class="tg-0pky">Dach</th>
-    <th class="tg-0pky">Schale</th>
-    <th class="tg-0pky">Morph</th>
+    <th class="header"></th>
+    <th class="header">Wand<br></th>
+    <th class="header">Unterzug</th>
+    <th class="header">Stütze</th>
+    <th class="header">Decke</th>
+    <th class="header">Dach</th>
+    <th class="header">Schale</th>
+    <th class="header">Morph</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Wand<br></td>
-    <td class="tg-vrnj">Kollision + Ref.-Linie</td>
-    <td class="tg-0pky">Kollision</td>
-    <td class="tg-0pky">Kollision oder Umwicklung</td>
-    <td class="tg-0pky">Kollision</td>
-    <td class="tg-0pky">Verbinden</td>
-    <td class="tg-0pky">Verbinden</td>
-    <td class="tg-0pky">Verbinden</td>
+    <td class="header right">Wand<br></td>
+    <td class="center green">Kollision + Ref.-Linie</td>
+    <td class="center green">Kollision</td>
+    <td class="center green">Kollision oder Umwicklung</td>
+    <td class="center green">Kollision</td>
+    <td class="center blue">Verbinden</td>
+    <td class="center blue">Verbinden</td>
+    <td class="center blue">Verbinden</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Unterzug</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">Kollision oder Ref.-Linie</td>
-    <td class="tg-0pky">Kollision</td>
-    <td class="tg-0pky">Kollision</td>
-    <td class="tg-0pky">Verbinden<br></td>
-    <td class="tg-0pky">Verbinden</td>
-    <td class="tg-0pky">Verbinden</td>
+    <td class="header right">Unterzug</td>
+    <td class=""></td>
+    <td class="center green">Kollision oder Ref.-Linie</td>
+    <td class="center green">Kollision</td>
+    <td class="center green">Kollision</td>
+    <td class="center blue">Verbinden<br></td>
+    <td class="center blue">Verbinden</td>
+    <td class="center blue">Verbinden</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Stütze</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">SEO</td>
-    <td class="tg-0pky">Kollision</td>
-    <td class="tg-0pky">Verbinden</td>
-    <td class="tg-0pky">Verbinden</td>
-    <td class="tg-0pky">Verbinden</td>
+    <td class="header right">Stütze</td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class="center red">SEO</td>
+    <td class="center green">Kollision</td>
+    <td class="center blue">Verbinden</td>
+    <td class="center blue">Verbinden</td>
+    <td class="center blue">Verbinden</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Decke</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">SEO<br></td>
-    <td class="tg-0pky">Verbinden</td>
-    <td class="tg-0pky">Verbinden</td>
-    <td class="tg-0pky">Verbinden</td>
+    <td class="header right">Decke</td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class="center red">SEO<br></td>
+    <td class="center blue">Verbinden</td>
+    <td class="center blue">Verbinden</td>
+    <td class="center blue">Verbinden</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Dach</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">Verbinden</td>
-    <td class="tg-0pky">Verbinden</td>
-    <td class="tg-0pky">Verbinden</td>
+    <td class="header right">Dach</td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class="center blue">Verbinden</td>
+    <td class="center blue">Verbinden</td>
+    <td class="center blue">Verbinden</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Schale</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">Verbinden</td>
-    <td class="tg-0pky">Verbinden</td>
+    <td class="header right">Schale</td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class="center blue">Verbinden</td>
+    <td class="center blue">Verbinden</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Morph</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">Verbinden</td>
+    <td class="header right">Morph</td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class=""></td>
+    <td class="center blue">Verbinden</td>
   </tr>
 </tbody>
 </table>
+
+- Grün: Automatische Verschneidung nach Baustoff-Priorität auf Schichtniveau
+- Blau: Verschneidung nach Baustoff-Prioriät auf Schichtniveau, erfordert aber Verschmelzen/Anpassen
+- Rot: Nur auf Elementebene mittels Solid Elements Operations
 
 Anmerkung: Die symbolische Grundriss-Darstellung "überschreibt" eine echte 3D-Projektion. Ansonsten ist die Darstellung aber in allen Sichte korrekt und übereinstimmend.  
 _Ebenen-Verschneidungsgruppen_ bieten eine zusätzliche Möglichkeit der Steuerung. Elemente, deren Ebenen unterschiedliche Verschneidungsnummern haben, verschneiden sich nie. Sonderfall: Elemente in der Ebene mit der Verschneidungsgruppennummer `0` (null) verschneiden nicht einmal untereinander.
