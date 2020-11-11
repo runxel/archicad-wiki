@@ -17,7 +17,8 @@ mod, 2dl, emf, wmf, dwf, [dwg](#dwg), HPGL (.plt), IFC, skp, [kmz](#kmz) (Google
 ### DWG
 Direkt in Archicad importierbar.  
 DWG und [DXF](#dxf) können auch als XREFs eingesetzt werden.  
-Mit der Funktion "In 2D Elemente zerlegen" können DWG und DXF direkt im Grundriss in native Modellelemente (Linien, Bögen, Schraffuren) umgewandelt werden. Dabei ist jedoch auf _"Attribute Pollution"_ zu achten! Es ist schnell passiert, dass ungewollte Attribute, wie Linientypen und Schraffuren, ihren Weg in die Archicaddatei finden. Unter Umständen also lieber in einer neuen Datei zerlegen und dort bereinigen.
+Mit der Funktion "In 2D Elemente zerlegen" können DWG und DXF direkt im Grundriss in native Modellelemente (Linien, Bögen, Schraffuren) umgewandelt werden. Dabei ist jedoch auf _"Attribute Pollution"_ zu achten! Es ist schnell passiert, dass ungewollte Attribute, wie Linientypen und Schraffuren, ihren Weg in die Archicaddatei finden. Unter Umständen also lieber in einer neuen Datei zerlegen und dort bereinigen.  
+Aufgemerkt bei DWGs mit **3D-Inhalt**! Bei diesem Typus kommt es sehr auf die Art des Inhalts an: Normale Blöcke lassen sich _als GDL importieren_, AEC- und Multiviewblöcke jedoch nicht. Das liegt daran, dass AutoCAD Architecture DWGs ein eigenes Format sind. Bei diesen Dateien muss man in AutoCAD Architecture zunächst nach AutoCAD (sic!) exportieren.
 
 ### DXF
 Direkt in Archicad importierbar. Siehe auch [DWG](#dwg).
@@ -44,6 +45,8 @@ Shape Files sind das beliebteste Dateiformat von GIS Anwendungen um 2D Inhalte a
 
 Shape Files bestehen eigentlich aus 3–4 Dateien: `.shp` (enthält die eigentliche Geometrie), `.dbf` (Attribute als dBase), `.shx` (Indexdatei), und bisweilen eine `.prj` Datei, in der Projektionsinformationen enthalten sind.
 Shapefiles haben eine Größenbeschränkung von 2 GB. Als Ersatz kommt auch oft [GeoPackage](#geopackage) zum Einsatz.
+
+Aufpassen muss man bezüglich der verwendeten Koordinatensysteme; siehe dazu auch diese [Webseite](https://ihatecoordinatesystems.com/).
 
 ### GeoJSON
 Ähnlich wie [SHP](#shp) ist [GeoJSON](https://geojson.org/) ein allgemeines Format, um geographische Strukturen zweidimensional abzubilden.  

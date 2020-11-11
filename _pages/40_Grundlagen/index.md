@@ -31,8 +31,109 @@ Zeichnungen sollten über die [Ebenen](https://onland.info/archives/2005/03/laye
 [Quelle](https://onland.info/archives/2006/03/beauty_is_third.php)
 
 
+## Verschneidung
+In Archicad gilt als Grundvoraussetzung für Verschneidungen (oder Verbindungen), dass die Konstruktions-Elemente im Raum zusammentreffen müssen. Alle Konstruktions-Elemente werden in allen Sichten bereinigt, sofern sie sich durchdringen. Im Fall von kollidierenden Schalen, Morphs und Dächern müssen diese außerdem mit den Befehlen des Verbindungsmenüs [verschmolzen](https://help.graphisoft.com/AC/23/GER/_AC23_Help/040_ElementsVB/040_ElementsVB-107.htm#XREF_29201_Merge_Elements) oder [getrimmt](https://help.graphisoft.com/AC/23/GER/_AC23_Help/040_ElementsVB/040_ElementsVB-100.htm#XREF_73985_Trim_Elements_with) werden.
+
+Die resultierende Verschneidung hängt von den _Baustoff-Prioritäten_ der Elemente ab. Das Element bzw. die Schicht mit dem Baustoff der höheren Priorität schneidet das Element mit der niedrigeren Priorität. Dies passiert bei den folgenden Elementen: Wand, Träger, Stütze, Decke, Dach, Schale, Morph.
+
+### Automatische Verschneidungen in Archicad
+
+<table>
+<thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky">Wand<br></th>
+    <th class="tg-0pky">Unterzug</th>
+    <th class="tg-0pky">Stütze</th>
+    <th class="tg-0pky">Decke</th>
+    <th class="tg-0pky">Dach</th>
+    <th class="tg-0pky">Schale</th>
+    <th class="tg-0pky">Morph</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Wand<br></td>
+    <td class="tg-vrnj">Kollision + Ref.-Linie</td>
+    <td class="tg-0pky">Kollision</td>
+    <td class="tg-0pky">Kollision oder Umwicklung</td>
+    <td class="tg-0pky">Kollision</td>
+    <td class="tg-0pky">Verbinden</td>
+    <td class="tg-0pky">Verbinden</td>
+    <td class="tg-0pky">Verbinden</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Unterzug</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Kollision oder Ref.-Linie</td>
+    <td class="tg-0pky">Kollision</td>
+    <td class="tg-0pky">Kollision</td>
+    <td class="tg-0pky">Verbinden<br></td>
+    <td class="tg-0pky">Verbinden</td>
+    <td class="tg-0pky">Verbinden</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Stütze</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">SEO</td>
+    <td class="tg-0pky">Kollision</td>
+    <td class="tg-0pky">Verbinden</td>
+    <td class="tg-0pky">Verbinden</td>
+    <td class="tg-0pky">Verbinden</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Decke</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">SEO<br></td>
+    <td class="tg-0pky">Verbinden</td>
+    <td class="tg-0pky">Verbinden</td>
+    <td class="tg-0pky">Verbinden</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Dach</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Verbinden</td>
+    <td class="tg-0pky">Verbinden</td>
+    <td class="tg-0pky">Verbinden</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Schale</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Verbinden</td>
+    <td class="tg-0pky">Verbinden</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Morph</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Verbinden</td>
+  </tr>
+</tbody>
+</table>
+
+Anmerkung: Die symbolische Grundriss-Darstellung "überschreibt" eine echte 3D-Projektion. Ansonsten ist die Darstellung aber in allen Sichte korrekt und übereinstimmend.  
+_Ebenen-Verschneidungsgruppen_ bieten eine zusätzliche Möglichkeit der Steuerung. Elemente, deren Ebenen unterschiedliche Verschneidungsnummern haben, verschneiden sich nie. Sonderfall: Elemente in der Ebene mit der Verschneidungsgruppennummer `0` (null) verschneiden nicht einmal untereinander.
+
+
 ## Troubleshooting
 
 ["The solution is probably easy but not obvious."](https://blog.graphisoftus.com/tips-and-tricks/easy-but-not-obvious)
 
 - Schlechte Performance im 3D – Das kann, neben anderen Gründen wie riesigen Texturen oder unsachgemäßer Anwendung von SEO, an einer einer übermäßigen Anzahl an Polygonen liegen. Siehe dazu [AsiaBIM](https://asiabim.wordpress.com/2020/06/05/polygon-reduction-in-archicad/)
+
+## Sonstiges
+- Der [intelligente Cursor](https://helpcenter.graphisoft.com/user-guide/88455/) in all seinen Facetten erklärt. 

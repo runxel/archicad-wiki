@@ -15,3 +15,6 @@ Der Workaround (siehe Bild) ist, der Freifläche in ihren Einstellungen einen di
 ![Konturen](../img/go-wand-freifläche.png)
 
 
+## Nur den Kern überschreiben
+Einzelne Schichten zu überschreiben geht bislang noch nicht. Allerdings lässt sich das dennoch mit geschickter Zuordnung der Stifte zu den Baustoffen und klugen Stiftsets dennnoch teilweise anstellen. Gut zu sehen ist hier auch das "Feature", dass Hintergrundstifte, die auf `0` (null = transparent) gesetzt sind, sich **nicht** überschreiben lassen.
+![Grafische Überschreibung in Archicad: Einzelne Schichte überschreiben](../img/gü-schichten-überschreiben.png)
