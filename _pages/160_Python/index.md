@@ -10,7 +10,7 @@ nav_order: 160
 Von Version 24 an gibt es eine Verbindung zu Archicad, bei der man über ein JSON-Interface Archicad automatisieren und skripten kann (Das ist kein Ersatz für GDL und umgekehrt). Das ist theoretisch mit jeder beliebigen Sprache, die JSON verarbeiten kann und Netzwerktauglich ist, möglich.  
 
 ## Start
-Zunächst muss [Python](https://www.python.org/) 3.7 oder höher auf dem Rechner installiert sein. Benötigt man mehrere Python Versionen nebeneinander auf seinem PC empfiehlt sich [Miniconda](https://docs.conda.io/en/latest/miniconda.html) – ein Paket- und Umgebungsmanager. (_Achtung_: Archicad findet aktuell keine virtuellen Umgebungen, wenn Anaconda/Miniconda zunächst mit einer Pythonversion > 3.7 installiert wurde. Dass bedeutet allerdings nur, dass die Python-Palette innerhalb Archicads nicht funktioniert. Ein Bugfix ist in Arbeit.)
+Zunächst muss [Python](https://www.python.org/) 3.7 oder höher auf dem Rechner installiert sein. Benötigt man mehrere Python Versionen nebeneinander auf seinem PC empfiehlt sich [Miniconda](https://docs.conda.io/en/latest/miniconda.html) – ein Paket- und Umgebungsmanager. (_Achtung_: Archicad findet aktuell keine virtuellen Umgebungen, wenn Anaconda/Miniconda zunächst mit einer Pythonversion > 3.7 installiert wurde. Das bedeutet allerdings nur, dass die Python-Palette innerhalb Archicads nicht funktioniert. Ein Bugfix ist in Arbeit.)
 
 <details markdown="1">
 <summary>Begrifflichkeiten …</summary>
@@ -25,7 +25,7 @@ Das ist nötig, wenn man aus Kompatibilitsgründen mehrere verschiedene Versione
 
 </details>
 
-Da die Befehle, was Archicad für uns tun soll, über ein JSON-Interface gesendet werden, ließe sich theoretisch jede Sprache verwenden, die Netzwerkbotschaften senden kann. Graphisoft hat aber ein Python-Paket bereitgestellt, werlches die JSON-Ebene wegabstrahiert, sodass auch Anfänger schnell Erfolgserlebnisse erleben.
+Da die Befehle, was Archicad für uns tun soll, über ein JSON-Interface gesendet werden, ließe sich theoretisch jede Sprache verwenden, die Netzwerkbotschaften senden kann. Graphisoft hat aber ein Python-Paket bereitgestellt, welches die JSON-Ebene wegabstrahiert, sodass auch Anfänger schnell Erfolgserlebnisse erleben.
 
 Dazu installieren wir das [Paket](https://pypi.org/project/archicad/) mittels `pip install archicad`.
 
