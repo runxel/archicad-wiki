@@ -15,7 +15,7 @@ Hat man keine Vermesserdaten zur Hand, oder benötigt eine Freifläche mit ganz 
 _Nur eine handvoll Daten?_
 
 Mit dem Objekt "Koordinaten Bemaßung" zunächst die benötigten Punkte auslegen, die benötigten Höhen eingeben.
-Man erstellt sich nun eine _Interaktive Auswertung_, um an die Koordinaten zu kommen. In den Schema-Einstellungen bei "<samp>Felder hinzufügen</samp>" auf das Dreeick und "<samp>Bibiliothekselementparameter</samp>".  
+Man erstellt sich nun eine _Interaktive Auswertung_, um an die Koordinaten zu kommen. In den Schema-Einstellungen bei "<samp>Felder hinzufügen</samp>" auf das Dreieck und "<samp>Bibiliothekselementparameter</samp>".  
 Wir wollen `CustomCoordX`, `CustomCoordY` und `CustomCoordZ` auswerten.
 
 ![Parameter](../img/freifläche-ia-zusätzliche-parameter.png)

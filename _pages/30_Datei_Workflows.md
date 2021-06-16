@@ -14,6 +14,8 @@ has_toc: false
 mod, 2dl, emf, wmf, dwf, [dwg](#dwg), HPGL (.plt), IFC, skp, [kmz](#kmz) (Google Earth), [3dm](#3dm), [dae](#dae) (Collada), [stl](#stl)  
 <sub>[Vollständige Auflistung](https://helpcenter.graphisoft.com/knowledgebase/25765/)</sub>
 
+Protip: [Online 3DViewer](https://3dviewer.net/)
+
 ### DWG
 Direkt in Archicad importierbar.  
 DWG und [DXF](#dxf) können auch als XREFs eingesetzt werden.  
@@ -114,6 +116,7 @@ Neu hinzugekommen in Archicad 24 ist das `Structural Analysis Format`, oder kurz
 ## Export
 ### Tipps zum DWG-Export
 - Ein einfacher Weg für die [Ebenenkonvertierung](https://www.davidkehr.com/ebenenkonvertierung-in-archicad/).
+- Anpassung von [Linienarten](https://helpcenter.graphisoft.com/knowledgebase/25749/) an Autocad
 
 ---
 
