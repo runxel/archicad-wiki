@@ -82,6 +82,13 @@ Eine Lösung dafür ist [hier dokumentiert](https://lucasbecker.de/posts/how-to-
 Tipp: Für solche Umstände zwei Arbeitsumgebungen pflegen!
 
 
+### Schraffuren und ihre Art
+Schraffuren existieren in mehreren Kategorien. Zwei fallen dabei besonders auf, denn der Unterschied ist nicht besonders klar: Vektorschraffuren und Symbolschraffuren. Nur letztere kann der User völlig frei selbst erstellen.  
+Der Unterschied wird aber beim Export deutlich. Im **PDF** werden Symbolschraffuren ebenfalls als Schraffur gespeichert – Vektorschraffuren dagegen werden in Einzellinien zerlegt. (Das bedeutet auch, dass sich Symbolschraffuren z.B. in Illustrator sehr viel leichter bearbeiten lassen.)  
+Im **DWG** dagegen ist es umgekehrt. Dort kommen die Vektorschraffuren als native AutoCAD-Schraffuren an.  
+Der Unterschied in der Dateigröße kann merklich sein und teils bis zu Faktor 10 betragen. Es kann sich daher lohnen, nur Symbolschraffuren zu verwenden, sodass man kleinere PDFs erzeugen kann, sowie gleichzeitig eine Mapping Tabelle für die Schraffuren im DWG-Export zu erstellen, dass auch in AutoCAD die Schraffuren noch als solche ankommen.
+
+
 ### Codemeter Lizenzserver
 [David Kehr](https://www.davidkehr.com/raspberry-pi-linux-als-codemeter-lizenzserver/) beschreibt in diesem Artikel, wie man einen Raspberry Pi als Dongleserver verwendet.
 
