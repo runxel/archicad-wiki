@@ -6,8 +6,11 @@ nav_order: 180
 ---
 
 # Registry
-In der Registry lassen sich einige Optionen einstellen, die in den normalen Einstellungen nicht zu finden, und oft auch undokumentiert sind. Dennoch kann es sinnvoll sein, hier etwas einzustellen – wenn man weiß, was man tut. Allerdings ist in jedem Fall zu beachten, dass die Einstellungen in der Registry _rein lokal_ sind, was vor allem im Teamwork ein beachtenswerter Faktor ist. Es müssten dann bei jedem Rechner die selben Einstellungen vorgenommen werden.  
+In der Registry (Windows) lassen sich einige Optionen einstellen, die in den normalen Einstellungen nicht zu finden, und oft auch undokumentiert sind. Dennoch kann es sinnvoll sein, hier etwas einzustellen – wenn man weiß, was man tut. Allerdings ist in jedem Fall zu beachten, dass die Einstellungen in der Registry _rein lokal_ sind, was vor allem im Teamwork ein beachtenswerter Faktor ist. Es müssten dann bei _jedem_ Rechner die _selben_ Einstellungen vorgenommen werden, um Konsistenz zu gewährleisten.  
 Wie bei allen Registry-Manipulationen gilt: Auf eigene Gefahr und ohne Gewähr.
+
+_Auf dem Mac unterwegs?_  
+Auch dort kann man Werte ändern. Statt einer zentralen Aufbewahrung setzt Apple jedoch auf die unübersichtlichen `.plist`s. Im konkreten Fall schaut man in die Datei **`/Library/Preferences/com.graphisoft.AC [version].0.0 XXX v1.plist`**. [Siehe auch.](https://helpcenter.graphisoft.com/knowledgebase/25471)
 
 
 <div class="code-example" markdown="1">
@@ -41,6 +44,17 @@ Ich persönlich habe die Werte für die Segmentierung auf `144` geändert, also 
 </div>
 ```
 HKEY_CURRENT_USER\Software\GRAPHISOFT\ARCHICAD\ARCHICAD <version>\GSModeler
+```
+
+
+<div class="code-example" markdown="1">
+
+Archicad führt ab und an "Aufräumarbeiten" durch. Dabei kann es passieren, dass User-gesetzte Anmerkungen in Auswertungen verschwinden. Um dieses Verhalten zu deaktiveren, sollte `CleanupUnusedAnnotations` auf 0 gesetzt werden. Zu verkraftender Nachteil sind leicht größere Dateien.  
+Nur für AC 24 Update 4 und Archicad 25 Update 2.  
+[<sup>Quelle</sup>](https://archicad-talk.graphisoft.com/viewtopic.php?f=26&t=62958#p332074)
+</div>
+```
+\HKEY_CURRENT_USER\Software\GRAPHISOFT\ARCHICAD\ARCHICAD <version>\Schedule
 ```
 
 
