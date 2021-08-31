@@ -72,8 +72,9 @@ Andere Formate als `e57` sind mit [CloudCompare](https://www.danielgm.net/cc/) z
 
 ### XYZ
 Archicad kann xyz Dateien automatisch in Freiflächen übersetzen: "Ablage > Interoperabililtät > Freifläche aus Vermesser-Daten erstellen".  
-Ob die Daten im Gauß-Krüger- oder im UTM-Koordinatensystem vorliegen, dürfte im Alltag vernachlässigbar sein, allerdings ist darauf hinzuweisen, dass die Koordinaten eine Abweichung von ~4cm auf 100 Meter zueinander besitzen.[<sup>1</sup>](https://www.lgln.niedersachsen.de/startseite/online_angebote_amp_services/hilfe_amp_support/frequently_asked_questions_faq/was-unterscheidet-die-gau-krueger-abbildung-von-der-utm-abbildung-51596.html)<sup>,</sup> [<sup>2</sup>](https://www.kreis-paderborn.de/kreis_paderborn/buergerservice/lebenslagen/dienstleistungen/62-utm-koordinaten.php)  
-Weiterhin wurde in Deutschland vor einigen Jahren damit begonnen, sämtliche Daten der öffentlichen Hand in UTM (ETRS89) umzuwandeln. Damit haben UTM-Koordinaten offiziellen Charakter, und Eingaben im GK-System werden vielerorts von den Ämtern schon gar nicht mehr akzeptiert.
+Ob die Daten im Gauß-Krüger- oder im UTM-Koordinatensystem vorliegen, dürfte im Alltag bei geringen Gebäudeabmessungen vernachlässigbar sein, allerdings ist darauf hinzuweisen, dass die Koordinaten eine Abweichung von ~4cm auf 100 Meter zueinander besitzen.<sup>[1](https://www.lgln.niedersachsen.de/startseite/online_angebote_amp_services/hilfe_amp_support/frequently_asked_questions_faq/was-unterscheidet-die-gau-krueger-abbildung-von-der-utm-abbildung-51596.html), [2](https://www.kreis-paderborn.de/kreis_paderborn/buergerservice/lebenslagen/dienstleistungen/62-utm-koordinaten.php)</sup>  
+Weiterhin wurde in Deutschland im Zuge der europäischen Harmonisierung vor einigen Jahren damit begonnen, sämtliche Daten der öffentlichen Hand in UTM (ETRS89) umzuwandeln. Damit haben die UTM-Koordinaten offiziellen Charakter, und Eingaben im GK-System werden i.d.R. von den Ämtern nicht mehr akzeptiert.  
+Eine online Koordinatenumrechung gibt es z.B. [hier](https://www.koordinaten-umrechner.de/). Die meisten Ämter stellen aber Stützpunkte zur Verfügung, über die mithilfe eines Transformationsprogramms die Daten präzise umgerechnet werden können.
 
 <details markdown="1">
 <summary>Details XYZ …</summary>
@@ -102,8 +103,10 @@ Das native Dateiformat von 3ds Max `.max` kann nur von 3ds Max selbst gelesen we
 Die obj-Datei in [Meshlab](#meshlab) importieren und als [STL](#stl) oder als [DAE](#dae) abspeichern: "File > Export Mesh as…"
 
 ### RFA
-Revit Families (`.rfa`) und Revit Dateien (`.rvt`) können zumindest mit dem [Plugin von Bim6x](https://bim6x.com/store) ihrer Geometrie habhaft gemacht werden.  
-[Helpcenter Artikel](https://helpcenter.graphisoft.com/knowledgebase/85861/)
+Revit Families (`.rfa`) und Revit Dateien (`.rvt`) können zumindest ihrer Geometrie habhaft gemacht werden.  
+Bis Archicad 24 mit dem [Plugin von Bim6x](https://bim6x.com/store). ([Helpcenter Artikel](https://helpcenter.graphisoft.com/knowledgebase/85861/))  
+Ab Archicad 25 ist das [nativ möglich](https://helpcenter.graphisoft.com/user-guide/136661/#XREF_34859_Native_to_ARCHICAD). Revit Modelle können nun auch gehotlinkt werden; MEP Families werden korrekt übernommen und sind mit dem MEP Modeler verknüpfbar.
+
 
 ### RVT
 Siehe [RFA](#rfa)

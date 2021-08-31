@@ -33,6 +33,7 @@ Ein Sammelort für Links, mehr oder weniger sortiert. Muss nicht immer zwangslä
 
 ## Infos
 - [DIN Formate](https://www.din-formate.de/)
+- [Papersizes.io](https://papersizes.io/)
 
 ## Texturen
 Siehe dazu [hier](/rendern/materialien/#anbieter)
@@ -46,7 +47,7 @@ Siehe dazu [hier](/rendern/materialien/#anbieter)
 
 ## Archicad Objekte (GDL)
 - [BIMcomponents](https://bimcomponents.com/)
-- [ArchiBase](https://archibase.co/) 
+- [ArchiBase](https://archibase.co/)
 - [ArchiUp](https://archiup.com/en/) – Echte Produkte, aber teils nicht als `.gsm`
 - [Modlar](https://www.modlar.com/) – Bringt auch News und einen Podcast
 - [Caroma](https://specify.caroma.com.au/bim-library-landing/archicad) – Speziell fürs Bad
@@ -58,7 +59,17 @@ Siehe dazu [hier](/rendern/materialien/#anbieter)
 - [OpenGDL](http://www.opengdl.org/Default.aspx?tabid=979)
 - [Skoldinovs Objekte](http://www.skoldinov.spb.ru/obj.php?lang=en)
 - [Runxels Objekte](https://runxel.xyz/archicad-objects/)
+- [MEPContent](https://www.mepcontent.com/de/) – HKLSE Inhalte von Herstellern. Leider keine `.gsm`, aber `.rfa` und IFCs
+- [McMaster-Carr](https://www.mcmaster.com/) – Schrauben, Befestigungen, uvm.
 
+
+## Staffage
+- [vector_vault](https://vectorvault.webflow.io/)
+- [Pimp My Drawing](https://pimpmydrawing.com/)
+- [Escalatina](https://escalalatina.com/)
+- [NonScandinavia](http://www.nonscandinavia.com/)
+- [Kaleidoscope](https://kaleidoscope-arch.tumblr.com/)
+- [BLK IMG](https://black-img.com/Cut-outs)
 
 ## 3D Objekte
 Oft auftauchende Frage: Wo bekomme ich 3D Modelle her?
@@ -77,6 +88,7 @@ Zum einen gibt es natürlich die Bereitstellung von Geoinformationen (Karten, Da
 - [Berlins Fis-Broker](https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/)
 - [BrandenburgViewer](https://bb-viewer.geobasis-bb.de/)
 - [Baden-Württemberg](https://udo.lubw.baden-wuerttemberg.de/public/)
+- etc.
 
 Zum anderen kann man sich auch die Daten des [OpenStreetMap Projekts](https://www.openstreetmap.org/) holen. Dazu gibt es verschiedene Möglichkeiten (bei den meisten benötigt man einen kostenlosen OSM Account):
 - [HOT](https://export.hotosm.org/en/v3/)
