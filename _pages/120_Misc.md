@@ -94,4 +94,5 @@ Der Unterschied in der Dateigröße kann merklich sein und teils bis zu Faktor 1
 
 
 ### Rien ne va plus
-Nichts geht mehr? Um Archicad komplett zurückzusetzen ist ein Registry Cleaner auf Nachfrage beim Support erhältlich.
+Nichts geht mehr? Um Archicad komplett zurückzusetzen ist ein Registry Cleaner auf Nachfrage beim Support, bzw. bei der [IDC](https://www.idc.ch/nc/support/view/?tx_idcsupport%5BprimaryLink%5D=1027&tx_idcsupport%5Bentry%5D=591&cHash=4551039ff4a5def9ae3ec33d61887915) erhältlich. 
+<!-- archive.org link:: http://web.archive.org/web/20211013130329/https://www.idc.ch/nc/support/view/?tx_idcsupport%5BprimaryLink%5D=1027&tx_idcsupport%5Bentry%5D=591&cHash=4551039ff4a5def9ae3ec33d61887915 -->
