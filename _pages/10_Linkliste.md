@@ -88,6 +88,7 @@ Zum einen gibt es natürlich die Bereitstellung von Geoinformationen (Karten, Da
 - [Berlins Fis-Broker](https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/)
 - [BrandenburgViewer](https://bb-viewer.geobasis-bb.de/)
 - [Baden-Württemberg](https://udo.lubw.baden-wuerttemberg.de/public/)
+- [Bayern](https://geoportal.bayern.de/geoportalbayern/)
 - etc.
 
 Zum anderen kann man sich auch die Daten des [OpenStreetMap Projekts](https://www.openstreetmap.org/) holen. Dazu gibt es verschiedene Möglichkeiten (bei den meisten benötigt man einen kostenlosen OSM Account):
