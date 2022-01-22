@@ -33,7 +33,7 @@ Zeichnungen sollten über die [Ebenen](https://onland.info/archives/2005/03/laye
 
 ## Projektlage
 In der Projektlage wird eingetragen, wo der globale Archicad-Nullpunkt sich in der echten Welt befindet. So können Breiten- und Längengrad, und die Nordrichung eingetragen werden. Auch die Höhenlage in Bezug zum Meeresspiegel* kann hier eingetragen werden. Damit ist das Delta des Archicad-Nullpunkts zum Meeresspiegel gemeint. Beispielsweise bedeutet ein Wert von `-1.0`, dass der AC-Nullpunkt einen Meter unter der Normalnullreferenz liegt. Betrachtet man es andersherum, kann es hier schnell zu einem Vorzeichenfehler kommen.  
-Siehe auch [Do's and Dont's](/dos-donts/#nullpunkt)  
+Siehe auch [Do's and Dont's](dos-donts/#nullpunkt)  
 *Zum Thema Meerespiegel: Natürlich ist die Bezeichnung nicht korrekt, aber es versteht so jeder, was gemeint ist. Tatsächlich ist seit 2016 die _Höhe über Normalhöhennull (NHN) im DHHN2016_ ausschlaggebend. Mehr [Infos](https://fernkorn-vermessung.de/blog/2020/10/22/hohe-uber-nn-nhn-wenn-ein-buchstabe-fur-verwirrung-sorgt/).
 
 
