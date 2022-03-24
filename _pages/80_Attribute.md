@@ -7,7 +7,7 @@ nav_order: 80
 # Attribute
 
 ## Stifte
-Es kann manchmal einfacher sein, Stifte im Attribute Manager zu bearbeiten. Außerdem lassen sich hier Stifte schnell zwischen verschiedenen Sets kopieren und einfügen.
+Es kann manchmal einfacher sein, Stifte im _Attributemanager_ zu bearbeiten. Außerdem lassen sich hier Stifte schnell zwischen verschiedenen Sets kopieren und einfügen.
 
 
 ## Unbenutzte Attribute

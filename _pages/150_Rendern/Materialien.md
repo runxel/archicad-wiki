@@ -53,15 +53,17 @@ Aus Cinema4D bekannt sind diese Channel in der Materialerstellung:
 In Archicad finden sich dann noch zwei weiterer Items:
 "Gras" und "Leuchten".
 _Gras_ ist ein integrierter Shader für Gras (naheliegend, oder?), kann aber auch für Fell, Teppiche u.ä. verwendet werden.
-_Leuchten_ entspricht dem "Illuminance" Tab in Cinema.
+_Leuchten_ entspricht dem "Illuminance" Tab in Cinema4D.
 
 ----
 
 ## Rule of the Power of Two
 Man sollte versuchen Bilder als Texturen zu verwenden, deren jeweilige Seitenlängen in Pixeln auf einer Zweierpotenz[<sup>1</sup>](https://gamedev.stackexchange.com/questions/26187/why-are-textures-always-square-powers-of-two-what-if-they-arent) basieren. Das hat den einfachen Grund, dass der Computer intern ohnehin so arbeiten muss. Bilder, die in seiner Abmessung nicht einer Zweierpotenz entsprechen, werden auf die nächste höhere Potenz (siehe unten) gepaddet.  
-Daher werden moderne Programme und Hardware alles klaglos schlucken, was man ihnen hinwirft. Aus Performancesicht aber eher ungünstig[<sup>2</sup>](https://www.katsbits.com/tutorials/textures/make-better-textures-correct-size-and-power-of-two.php).
+Daher werden moderne Programme und Hardware alles klaglos schlucken, was man ihnen hinwirft. Aus Performancesicht dennoch eher ungünstig[<sup>2</sup>](https://www.katsbits.com/tutorials/textures/make-better-textures-correct-size-and-power-of-two.php).
 
 #### Mögliche Abmessungen:
+`2^8`  = 256 px  
+`2^9`  = 512 px  
 `2^10` = 1024 px  
 `2^11` = 2048 px  
 `2^12` = 4096 px  
@@ -73,7 +75,7 @@ Vielleicht ist es dem einen oder anderen schon aufgefallen, dass man bei den pro
 - **Specular** (auch _Glossiness_ genannt) und
 - **Metalness** (auch _Roughness_ genannt)
 
-Der _Metalness_ Workflow ist dabei vor allem unter den Real-Time Renderern wie Unreal, Unity, usw. verbreitet. Zwar bieten mittlerweile auch einige der herkömmlichen Renderer Metalness an, Cinema4D jedoch **nicht**. Da ohnehin jeder Renderer mit _Specular_ Maps zurecht kommt, ist man damit stets auf der sicheren Seite. 
+Der _Metalness_ Workflow ist dabei vor allem unter den Real-Time Renderern wie Unreal, Unity, usw. verbreitet. Zwar bieten mittlerweile auch einige der herkömmlichen Renderer Metalness an, Cinema4D jedoch **nicht** für den Physical Render (das ist der Modus, der in Archicad zum Einsatz kommt; seit Archicad 25 ist der von Maxon aufgekaufte Redshift Renderer für ArchiCARD-Kunden verfügbar. Dieser versteht Metal/Roughness). Da aber ohnehin jeder Renderer mit _Specular_ Maps zurecht kommt, ist man damit stets auf der sicheren Seite. 
 
 ---
 

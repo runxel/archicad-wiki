@@ -26,7 +26,8 @@ Aufgemerkt bei DWGs mit **3D-Inhalt**! Bei diesem Typus kommt es sehr auf die Ar
 Direkt in Archicad importierbar. Siehe auch [DWG](#dwg).
 
 ### PDF
-Archicad kann PDFs im Grundriss platzieren, und auch in seine Einzelteile zerlegen. Das ist vor allem bei z.B. Herstellerdetails nützlich.
+Archicad kann PDFs im Grundriss platzieren, und auch in seine Einzelteile zerlegen (sofern vektorbasiert). Das ist vor allem bei z.B. Herstellerdetails nützlich.  
+Es sollte der Archicad-Maßstab vor dem Import beachtet werden. Dieser muss vor dem Einfügen der PDF-Zeichnung dem Maßstab letzterer entsprechen. So ist keine anschließende Skalierung nötig.
 
 ### DAE
 Collada Dateien sind direkt in Archicad importierbar. Dabei wird ein _Objekt_ erzeugt.
@@ -120,6 +121,10 @@ Neu hinzugekommen in Archicad 24 ist das `Structural Analysis Format`, oder kurz
 ### Tipps zum DWG-Export
 - Ein einfacher Weg für die [Ebenenkonvertierung](https://www.davidkehr.com/ebenenkonvertierung-in-archicad/).
 - Anpassung von [Linienarten](https://helpcenter.graphisoft.com/knowledgebase/25749/) an Autocad
+
+## BEM
+Über die Energiemodellbewertung kann [**Green Building XML (gbXML)**](https://gbxml.org/) und **PHPP** exportiert werden.  
+Siehe auch [GS Community Guide](https://community.graphisoft.com/t5/Data-Exchange-articles/How-to-prepare-the-BIM-model-for-the-Energy-Evaluation/ta-p/303534) und [AC-Hilfe](https://help.graphisoft.com/AC/25/ger/_AC25_Help/110_EnergyEvaluation/110_EnergyEvaluation-1.htm).
 
 ---
 

@@ -19,7 +19,8 @@ Im Folgenden ein "Best Of", direkt für Copy&Paste geeignet. Man muss allerdings
 
 <div class="code-example" markdown="1">
 
-Der folgende Snippet verbindet drei Strings (S1–S3) mit jeweils einem Zeilenumbruch, sofern sie nicht leer sind. In dem Fall wird es übersprungen.
+<del>Der folgende Snippet verbindet drei Strings (S1–S3) mit jeweils einem Zeilenumbruch, sofern sie nicht leer sind. In dem Fall wird es übersprungen.</del>
+<ins>Dieser Trick funktioniert mittlerweile nicht mehr!</ins>
 
 </div>
 ```
@@ -50,3 +51,73 @@ IF (
   ) )
 ```
 
+
+<div class="code-example" markdown="1">
+Nur relevanten Stellen anzeigen. Z.B. 0,26 → 26; 0,267 → 26⁵  
+(Erzeugt einen String.)
+
+</div>
+```
+IF ( 
+    SPLITLEFT ( 
+        STR ( 
+            MROUND ( {Property:Allgemeine Parameter/Höhe} / 1 m; 0,005 ); 3 );
+            ",";
+            1 )
+    = "0"; 
+    
+    IF ( 
+        RIGHT ( 
+            SPLITRIGHT ( 
+                STR ( 
+                    MROUND ( {Property:Allgemeine Parameter/Höhe} / 1 m; 0,005 ); 3 );
+                    ",";
+                    2 ); 
+            1 )
+        = "0"; 
+        
+        LEFT ( 
+            SPLITRIGHT ( 
+                STR ( 
+                    MROUND ( {Property:Allgemeine Parameter/Höhe} / 1 m; 0,005 ); 3 );
+                    ",";
+                    2 ); 
+                2 ); 
+            CONCAT ( 
+                LEFT ( 
+                    SPLITRIGHT ( 
+                        STR ( MROUND ( {Property:Allgemeine Parameter/Höhe} / 1 m; 0,005 ); 3 ); 
+                        ","; 
+                        2 );
+                    2 );
+                "⁵" ) 
+    ); 
+    
+    IF (
+        RIGHT (
+            STR ( MROUND ( {Property:Allgemeine Parameter/Höhe} / 1 m; 0,005 ); 3 );
+            1
+        )
+        = "0";
+
+        LEFT (
+            STR ( MROUND ( {Property:Allgemeine Parameter/Höhe} / 1 m; 0,005 ); 3 );
+            LEN ( 
+                STR ( MROUND ( {Property:Allgemeine Parameter/Höhe} / 1 m; 0,005 ); 3 )
+            )
+            - 1
+        );
+
+        CONCAT(
+            LEFT (
+                STR ( MROUND ( {Property:Allgemeine Parameter/Höhe} / 1 m; 0,005 ); 3 );
+                LEN ( 
+                    STR ( MROUND ( {Property:Allgemeine Parameter/Höhe} / 1 m; 0,005 ); 3 )
+                )
+                - 1
+            );
+            "⁵"
+        )
+    )
+)
+```

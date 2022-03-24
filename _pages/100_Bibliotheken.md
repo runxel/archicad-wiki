@@ -20,7 +20,7 @@ Die Detailinfos gibts mittels des cyan gerahmten Buttons:
 ## Migration von Objekten
 Die Migration eines Objekts basiert auf seiner GUID.  
 Wenn das 'alte' Objekt platziert, aber nicht mehr _geladen_ ist, dann wird das Objekt auf seine neue Version migriert (vorausgesetzt, das Migrationsskript ist ordnungsgemäß).  
-Solange sich das 'alte' Objekt immer noch in einer geladenen Bibliothek (dazu zählt auch die _Eingebettete Bibliothek_!) befindet, findet keine Migration statt.
+Solange sich das 'alte' Objekt immer noch in einer geladenen Bibliothek (dazu zählt auch die _Eingebettete Bibliothek_!) befindet, findet **keine** Migration statt.
 
 
 ## Objekte aus anderen Bibliotheken übernehmen

@@ -77,3 +77,8 @@ Ergibt das noch keine Abhilfe, so löscht man den Schlüssel `RenderingSettingsP
 ```
 HKEY_CURRENT_USER\Software\GRAPHISOFT\ARCHICAD\ARCHICAD <version>\Dialog Manager Custom Data
 ```
+
+# Extending Archicad
+Es ist möglich seine eigene Dokumentation (z.B. ein BIM-Playbook) und eigene Links zu Hilfen in Archicad unterbringen. Dazu muss im Archicad-Installationsordner ein neuer Unterordner erstellt werden: Für PDFs `Dokumentation2` und für Links zu Onlineinhalten `WWW-Links2`. (Achtung, diese Namen sind lokalisiert. In der Int'l/US Version heißen die Ordner "Documentation2" und "WWWLinks2".)  
+Anschließend muss in den Arbeitsumgebungseinstellungen noch der entsprechende Menüeintrag erzeugt werden. Dieser heißt `PDF2`, bzw. `URL2` respektive.  
+[[Quelle](https://community.graphisoft.com/t5/Setup-License-forum/Error-WWWLinks2-amp-Help2/)]
