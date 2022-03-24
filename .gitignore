@@ -17,3 +17,7 @@ _img/
 
 # don't include WIP, notes, etc.
 _notready/
+
+*.pln
+*.pla
+*.mod
