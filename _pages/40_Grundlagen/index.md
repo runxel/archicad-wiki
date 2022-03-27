@@ -161,7 +161,8 @@ Die _Grundeinstellung aller Werkzeuge_ ist die letzte Einstellung vor dem Sicher
     1. Ändern Sie die Endung zu `.pln`.
     1. Öffnen Sie eine neue Archicad-Instanz, allerdings _nicht_ mit Doppelklick auf die eben "erstellte" Datei. Stattdessen wählen Sie diese zum `Öffnen & Reparieren` aus. Archicad sollte nun den letzten Schritt des Autosaves für Sie wiederhergestellt haben.
 - Wiederherstellen von abgestürzten Dateien:
-[](https://asiabim.wordpress.com/2016/10/04/data-safety-file-recovery-and-troubleshooting/)
+  - [AsiaBIM](https://asiabim.wordpress.com/2016/10/04/data-safety-file-recovery-and-troubleshooting/)
+  - [GS Guideline](https://community.graphisoft.com/t5/Project-Management-articles/File-Damage-or-Corruption-Troubleshooting-Guide/ta-p/304096)
 
 ## Sonstiges
 - Der [intelligente Cursor](https://helpcenter.graphisoft.com/user-guide/88455/) in all seinen Facetten erklärt. 
