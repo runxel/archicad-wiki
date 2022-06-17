@@ -155,7 +155,7 @@ Die _Grundeinstellung aller Werkzeuge_ ist die letzte Einstellung vor dem Sicher
 - Schlechte Performance im 3D – Das kann, neben anderen Gründen wie riesigen Texturen oder unsachgemäßer Anwendung von SEO, an einer einer übermäßigen Anzahl an Polygonen liegen. Siehe dazu [AsiaBIM](https://asiabim.wordpress.com/2020/06/05/polygon-reduction-in-archicad/)
 - Die Nachricht `Die Festplatte ist voll. Archicad muss jetzt geschlossen werden`:
     1. Klicken Sie nicht auf "OK", denn dann schließt sich Archicad sofort.
-    1. Gehen Sie im Explorer zu `C:/Users/<username>/GRAPHISOFT/Autosave-<Archicad version>`
+    1. Gehen Sie im Explorer zu `C:/Users/<username>/GRAPHISOFT/Autosave-<Archicad version>` / im Finder zu `/Users/<username> /Library/Application Support/GRAPHISOFT/AutoSave-<Archicad version>`
     1. Kopieren Sie den Inhalt an eine andere Stelle.
     1. Es müsste ein Unterordner namens `@ODB_Database_<nummer>` existieren. In diesem Ordner liegt eine Datei mit der Endung `.fbd`.
     1. Ändern Sie die Endung zu `.pln`.
