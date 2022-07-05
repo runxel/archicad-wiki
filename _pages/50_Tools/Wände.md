@@ -36,7 +36,7 @@ Eine Alternative ist der Einsatz des _Wandzubehörs_, oder die Verwendung des _T
 
 
 ## Wand-Listenparameter
-Der [Help Center Artikel](https://helpcenter.graphisoft.de/handbuecher/handbucher-zu-archicad-23/hilfe-zu-archicad-23/elementparameter/wand-listenparameter/) hat eine Zusammenstellung.
+Der [Help Center Artikel](https://helpcenter.graphisoft.com/de/user-guide/137276/) hat eine Zusammenstellung.
 
 
 ## Wände richtig beschneiden
