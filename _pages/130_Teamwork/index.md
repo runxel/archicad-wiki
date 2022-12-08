@@ -15,6 +15,11 @@ Reservierte Elemente lassen sich nach einem Klick auf <samp>Mein Arbeitsbereich<
 
 Achtung bei Projekten mit Hotlinks! Hotlinks lassen sich nur insgesamt reservieren, nicht individuelle Elemente daraus.
 
+
+## Build Nummer
+Die Buildnummern von Archicad zu Teamworkserver müssen nicht gleich sein, aber jedoch im selben Hunderter-Abschnitt sein. Beispiel: Die Builds 4019 und 4032 sind kompatibel zu einander. Alle Builds im Bereich 40xx wären möglich nebeneinander zu betreiben.
+
+
 ## Troubleshooting
 Wenn Probleme auftreten, empfiehlt es sich, das Projekt zu verlassen (<samp>Teamwork > Projekt > Teamwork-Projekt verlassen</samp>). Das Verlassen eines Teamwork-Projekts löscht alle lokalen Daten; diese werden bei einem erneuten Beitritt frisch vom Server geladen.  
 Nicht gelöscht werden dagegegen jedoch heruntergeladene Bibliotheken. Treten Schwierigkeiten mit Bilbiothekselementen auf, so hilft es unter <samp>Teamwork > Projekt > Lokale-Daten-Manager</samp> die lokale Kopie der Bibliothek zu löschen. Das lässt sich auch im "laufenden Betrieb" erledigen – anschließend kann mit <samp>Neu laden & Anwenden</samp> im Bibliothekenmanager das Neuladen der Bibliothek forciert werden.
