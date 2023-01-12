@@ -13,7 +13,9 @@ _img/
 *.lnk
 *.url
 
+# editor stuff
 .vscode
+*.code-*
 
 # don't include WIP, notes, etc.
 _notready/
