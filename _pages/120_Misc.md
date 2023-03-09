@@ -6,6 +6,9 @@ nav_order: 120
 ---
 # Gesammelte Tipps und Tricks
 
+### Schnelles Öffnen
+Nicht selten braucht man mehrere Instanzen von Archicad offen. Hält man <kbd>Ctrl</kbd> gedrückt, wenn man über das Menü eine Datei öffnet, dann startet eine neue Archicad-Instanz im Hintergrund.
+
 ### Geschoss nach Höhenwert
 Im 3D-Fenster können Elemente auch nach ihrem Höhenwert automatisch die Geschosszugehörigkeit wechseln. Dazu wählt man im Tracker die Option <samp>Nach Höhenwert</samp> aus:  
 ![Verschieben nach Höhenwert](../img/nach-hoehenwert-1.png)  
