@@ -23,11 +23,6 @@ Diese Autotexte funktionieren auch in GDL Objekten und selbst in im Quelltext da
 Eine Auflistung aller möglichen Autotexte im [Helpcenter](https://helpcenter.graphisoft.com/de/user-guide/125474/). Die Autotexte lassen sich auch beim [Umbenennen](https://helpcenter.graphisoft.de/handbuecher/handbucher-zu-archicad-22/hilfe-zu-archicad-22/dokumentation/publizieren/publisher/) von Publisher-Elementen verwenden; einige spezielle Autotexte sind dort direkt verfügbar, alle anderen können aber trotzdem eingegeben werden.
 
 
-### Alte Dateien öffnen
-Archicad macht einen großartigen Job, was die Kompatibilität der Dateien über viele Versionen hinweg angeht.  
-Neuere Archicadversionen können alles herunter bis zur Version 10 (2006) lesen. Um ältere Dateien zu öffnen braucht man einen [File Converter](https://www.graphisoft.com/downloads/fileconverter.html?_ga=2.61625003.643702453.1581271053-1232179466.1527696442). Damit können dann sogar Dateien bis herunter zur Version 4.1 (1992) konvertiert werden. Für noch antikere Versionen kann man sich an den Support wenden. <!-- https://graphisoft.com/de/downloads/fileconverterger -->
-
-
 ### Favoriten
 Sind mal wieder Einstellungen und Attribute von einem Element auf ein anderes zu übertragen, so geht das fix mit Pipette und Spritze. Was aber, wenn man nicht das nicht für ein oder zwei Objekte macht, sondern für 300? Der Trick ist, sich einen temporären _Favoriten_ zu erstellen, den man nach dem anwenden auf alle Elemente wieder löschen kann.
 

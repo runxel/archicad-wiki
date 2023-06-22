@@ -7,6 +7,12 @@ has_toc: false
 ---
 # Workflows mit verschiedenen Dateiformaten
 
+## Alte Archicad Dateien öffnen (.pln)
+Archicad macht verglichen zur Konkurrenz einen großartigen Job, was die Kompatibilität der Dateien über viele Versionen hinweg angeht.  
+Ab Version 27 kann Archicad Dateien bis zur 17 (2013) lesen. Alle Versionen bis zur 26 können immerhin alles herunter bis zur Version 10 (2006) lesen.
+Für noch ältere Dateien braucht man einen [File Converter](https://www.graphisoft.com/downloads/fileconverter.html?_ga=2.61625003.643702453.1581271053-1232179466.1527696442). Damit können dann sogar Dateien bis herunter zur Version 4.1 (1992) konvertiert werden. Hat man richtig antike Versionen bei sich rumliegen, so kann man sich an den Support wenden. <!-- https://graphisoft.com/de/downloads/fileconverterger -->
+
+
 ## Import
 
 **Folgende Formate sind direkt importierbar:**  
