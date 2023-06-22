@@ -17,10 +17,10 @@ Für noch ältere Dateien braucht man einen [File Converter](https://www.graphis
 
 **Folgende Formate sind direkt importierbar:**  
 (Entweder über Drag&Drop oder über Ablage > Interoperabilität > Dazuladen…)  
-mod, 2dl, emf, wmf, dwf, [dwg](#dwg), HPGL (.plt), IFC, skp, [kmz](#kmz) (Google Earth), [3dm](#3dm), [dae](#dae) (Collada), [stl](#stl)  
+mod, 2dl, emf, wmf, dwf, [dwg](#dwg), HPGL (.plt), IFC, skp, [kmz](#kmz) (Google Earth), [3dm](#3dm), [dae](#dae) (Collada), [stl](#stl), [FBX](#fbx)  
 <sub>[Vollständige Auflistung](https://helpcenter.graphisoft.com/knowledgebase/25765/)</sub>
 
-Protip: [Online 3DViewer](https://3dviewer.net/)
+Tipp: [Online 3DViewer](https://3dviewer.net/)
 
 ### DWG
 Direkt in Archicad importierbar.  
@@ -93,7 +93,8 @@ Die Datei muss aus drei Spalten bestehen, und es dürfen nur numerische Eingaben
 
 ### FBX
 Weit verbreitetes, aber proprietäres Austauschformat für 3D Inhalte.  
-Muss in ein anderes Format umgewandelt werden, z.B. mittels dem kostenfreien [Autodesk FBX Converter](https://www.autodesk.com/developer-network/platform-technologies/fbx-converter-archives).  
+Kann seit der Version 27 endlich nativ gelesen und geschrieben werden.  
+Musste bis zur v26 in ein anderes Format umgewandelt werden, z.B. mittels dem kostenfreien [Autodesk FBX Converter](https://www.autodesk.com/developer-network/platform-technologies/fbx-converter-archives).  
 Alternativ gibt es mit [Modelport](https://archvista.com/modelport/) ein sehr potentes Plugin für Archicad.
 
 ### 3DS
@@ -115,7 +116,6 @@ Revit Families (`.rfa`) und Revit Dateien (`.rvt`) können zumindest ihrer Geome
 Bis Archicad 24 mit dem [Plugin von Bim6x](https://bim6x.com/store). ([Helpcenter Artikel](https://helpcenter.graphisoft.com/knowledgebase/85861/))  
 Ab Archicad 25 ist das [nativ möglich](https://helpcenter.graphisoft.com/user-guide/136661/#XREF_34859_Native_to_ARCHICAD). Revit Modelle können nun auch gehotlinkt werden; MEP Families werden korrekt übernommen und sind mit dem MEP Modeler verknüpfbar.
 
-
 ### RVT
 Siehe [RFA](#rfa)
 
@@ -130,7 +130,7 @@ Neu hinzugekommen in Archicad 24 ist das `Structural Analysis Format`, oder kurz
 - Anpassung von [Linienarten](https://helpcenter.graphisoft.com/knowledgebase/25749/) an Autocad
 
 ## BEM
-Über die Energiemodellbewertung kann [**Green Building XML (gbXML)**](https://gbxml.org/) und **PHPP** exportiert werden.  
+Über die Energiemodellbewertung können (mehr schlecht als recht) [**Green Building XML (gbXML)**](https://gbxml.org/) und **PHPP** exportiert werden.  
 Siehe auch [GS Community Guide](https://community.graphisoft.com/t5/Data-Exchange-articles/How-to-prepare-the-BIM-model-for-the-Energy-Evaluation/ta-p/303534) und [AC-Hilfe](https://help.graphisoft.com/AC/25/ger/_AC25_Help/110_EnergyEvaluation/110_EnergyEvaluation-1.htm).
 
 ---
@@ -146,7 +146,7 @@ Um stark facettierte Objekte zu entschärfen wählt man:
 
 ![Meshlab Einstellungen](../img/meshlab-simplification-settings.png)
 
-Dort kann man dann die <samp>Target number of faces</samp> langsam herunterdrehen – "Apply" drücken nicht vergessen. Je nach Komplexität sollte man versuchen am Ende mindestens unter 10'000 Faces zu kommen. Wichtig: "<samp>Preserve Boundary of the mesh</samp>" sollte angehakt sein, damit das Element nicht "schrumpft". "<samp>Preserve Topology</samp>" kann ebenfalls zu besseren Ergebnissen führen.
+Dort kann man dann die <samp>Target number of faces</samp> langsam herunterdrehen – "Apply" drücken nicht vergessen. Je nach Komplexität sollte man versuchen am Ende mindestens unter 10'000 Faces zu kommen. Wichtig: "<samp>Preserve Boundary of the mesh</samp>" sollte angehakt sein, damit das Element nicht "schrumpft". "<samp>Preserve Topology</samp>" _kann_ ebenfalls zu besseren Ergebnissen führen.
 
 Je nachdem, wo das Objekt ursprünglich herkam, sind die Achsen "verdreht" – es gibt leider keine einheitliche Konvention. Um sicher zu gehen hilft:  
 "<samp>Render > Show Axis</samp>"
