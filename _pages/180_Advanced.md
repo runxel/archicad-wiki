@@ -10,7 +10,7 @@ In der Registry (Windows) lassen sich einige Optionen einstellen, die in den nor
 Wie bei allen Registry-Manipulationen gilt: Auf eigene Gefahr und ohne Gewähr.
 
 _Auf dem Mac unterwegs?_  
-Auch dort kann man Werte ändern. Statt einer zentralen Aufbewahrung setzt Apple jedoch auf die unübersichtlichen `.plist`s. Im konkreten Fall schaut man in die Datei **`/Library/Preferences/com.graphisoft.AC [version].0.0 XXX v1.plist`**. [Siehe auch.](https://helpcenter.graphisoft.com/knowledgebase/25471)
+Auch dort kann man Werte ändern. Statt einer zentralen Aufbewahrung setzt Apple jedoch auf die unübersichtlichen `.plist`s. Im konkreten Fall schaut man in die Datei **`~/Library/Preferences/com.graphisoft.AC [version].0.0 XXX v1.plist`**. [Siehe auch.](https://community.graphisoft.com/t5/Installation-update/Altering-ARCHICAD-behavior-Registry-or-Preferences/ta-p/304121)
 
 
 <div class="code-example" markdown="1">
@@ -40,7 +40,8 @@ Eine der bekanntesten Problematiken von Schalen (Shells) in Archicad ist die fes
 - `ShellMaxSegmentationNumber` [default: 36]
 - `ShellMinSegmentationNumber` [default: 36]
 - `ShellSegmentationTolerMM` [default: 100]
-Ich persönlich habe die Werte für die Segmentierung auf `144` geändert, also vervierfacht. Die Toleranz änderte ich auf `16`, das scheint aber weniger Einfluss zu haben. Ich konnte dabei keinen Unterschied feststellen. Die Segmentierung sollte in jedem Fall behutsam angepasst werden, denn damit erhöht man auch die Polygonanzahl. [<sup>Quelle 1</sup>](https://archicad-talk.graphisoft.com/viewtopic.php?t=44270#p222497) [<sup>Quelle 2</sup>](https://archicad-talk.graphisoft.com/viewtopic.php?f=20&t=38490)
+
+Ich persönlich habe die Werte für die Segmentierung auf `144` geändert, also vervierfacht. Die Toleranz änderte ich auf `16`, das scheint aber keinen Einfluss zu haben (bzw. ich vermute, dass dieser Wert inaktiv ist, wenn Max und Min Segmentation gleich sind). Die Segmentierung sollte in jedem Fall behutsam angepasst werden, denn damit erhöht man auch die Polygonanzahl. [<sup>Quelle 1</sup>](https://archicad-talk.graphisoft.com/viewtopic.php?t=44270#p222497) [<sup>Quelle 2</sup>](https://archicad-talk.graphisoft.com/viewtopic.php?f=20&t=38490)
 </div>
 ```
 HKEY_CURRENT_USER\Software\GRAPHISOFT\ARCHICAD\ARCHICAD <version>\GSModeler

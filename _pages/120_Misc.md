@@ -87,6 +87,13 @@ Im **DWG** dagegen ist es umgekehrt. Dort kommen die Vektorschraffuren als nativ
 Der Unterschied in der Dateigröße kann merklich sein und teils bis zu Faktor 10 betragen. Es kann sich daher lohnen, nur Symbolschraffuren zu verwenden, sodass man kleinere PDFs erzeugen kann, sowie gleichzeitig eine Mapping Tabelle für die Schraffuren im DWG-Export zu erstellen, dass auch in AutoCAD die Schraffuren noch als solche ankommen.
 
 
+### Nickeligkeiten
+Bei den Sichtmarkern (also Markern, die eine Sicht erstellen) gibt es die Möglichkeit die Bildschirmdarstellung der nicht druckbaren Lienen (wie Ansichtstiefe) durch die globale Vergabe eines Stiftes zu verändern, in der Arbeitsumgebung zu finden unter den "Bildschirm-Optionen". 
+Diese Darstellung scheint bei eingeschalteter "Echter Linienstärke" nun aber nicht zu stimmen. Das liegt an einer irren Wechselwirkung: 
+Die Stärke wird in Schnitten/Ansichten durch Stift Nr. 1 und bei Innenansichten durch Stift Nr. 85. bestimmt.  
+[<sup>Quelle</sup>](https://community.graphisoft.com/t5/Documentation/Marker-Elements-on-screen-only-parts/m-p/570733/highlight/true#M61935)
+
+
 ### Codemeter Lizenzserver
 [David Kehr](https://www.davidkehr.com/raspberry-pi-linux-als-codemeter-lizenzserver/) beschreibt in diesem Artikel, wie man einen Raspberry Pi als Dongleserver verwendet.
 
