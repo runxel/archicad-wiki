@@ -70,6 +70,32 @@ HKEY_CURRENT_USER\SOFTWARE\Graphisoft\ARCHICAD\ARCHICAD <version>\PointCloud
 
 <div class="code-example" markdown="1">
 
+Die nervigen, mit Archicad 27 eingeführten Online-Templates sollte man in einer Bürostruktur lieber ausblenden. Das ist jedoch gar nicht so einfach. Es finden sich einige passende Einträge: vier TimeOuts und zwei URLs.  
+Eine `0` (Null) oder kleine Zahlen als TimeOut bringen noch nicht das gewünschte Ergebnis. Nur den `httpRequest` alleine zu ändern, auch nicht. Weitergehend sollte nämlich der Eintrag `serviceAddress` auf eine ungültige Adresse geändert werden, z.B. `https://update.graphisoft.com/support/archicad/downloads/templates_deaktiviert_.json` – nicht jedoch auf einen leeren String!
+</div>
+```
+HKEY_CURRENT_USER\SOFTWARE\Graphisoft\ARCHICAD\ARCHICAD <version>\Online Hosted Templates
+```
+
+
+<div class="code-example" markdown="1">
+
+Vom letzten Beispiel ausgehend kann auch die Bürovorlage dem User als "zuletzt genutzt" untergejubelt werden. In `Recent templates` folgende Einstellungen:  
+- `Use Latest Project Settings` -> dword:00000000
+- `Tmpl Number` -> `0`
+- `Last selected template` -> "pfad/zum/NAS/mit/Template.tpl"
+
+Den Templatesordner ansich kann man in den Einstellungen von Archicad ändern, aber auch in der Registry global einmal setzen. Unter `Special Folder Locations`:  
+`Templates Folder` -> "pfad/zum/NAS-Ordner/"
+</div>
+```
+HKEY_CURRENT_USER\SOFTWARE\Graphisoft\ARCHICAD\ARCHICAD <version>\Recent templates
+HKEY_CURRENT_USER\SOFTWARE\Graphisoft\ARCHICAD\ARCHICAD <version>\Special Folder Locations
+```
+
+
+<div class="code-example" markdown="1">
+
 Die PhotoRendering-Palette hat die unangenehme Eigenschaft, manchmal zu "verschwinden" – dabei ist sie eigentlich nur außerhalb des Bildschirms. Ein Neustart des PCs kann zwar helfen, aber der folgende Weg hilft sicher:  
 Zunächst testet man, ob durch das löschen der Preferences-Datei `C:\Users\<name>\AppData\Roaming\GRAPHISOFT\ARCHICAD-64 <XXXX>\ARCHICAD Basic.prf` das Problem verschwindet.
 
@@ -77,6 +103,16 @@ Ergibt das noch keine Abhilfe, so löscht man den Schlüssel `RenderingSettingsP
 </div>
 ```
 HKEY_CURRENT_USER\Software\GRAPHISOFT\ARCHICAD\ARCHICAD <version>\Dialog Manager Custom Data
+```
+
+
+<div class="code-example" markdown="1">
+
+Um Hotlinks separat upzudaten setzt man den Schlüssel `Hotlink Module Update` auf `1`. Dadurch erscheint im Hotlink Manager ein neuer Button.  
+[<sup>Quelle</sup>](https://community.graphisoft.com/t5/Project-data-BIM/Teamwork-Performance-of-multiple-self-referencing-Hotlinks/m-p/571019#M9667)
+</div>
+```
+HKEY_CURRENT_USER\Software\GRAPHISOFT\ARCHICAD\ARCHICAD <version>\Hotlink
 ```
 
 # Extending Archicad
