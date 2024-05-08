@@ -15,6 +15,16 @@ Auch dort kann man Werte ändern. Statt einer zentralen Aufbewahrung setzt Apple
 
 <div class="code-example" markdown="1">
 
+Leider bietet Archicad erstmal keine Möglichkeit an, um die (maximal) 4 hinterlegten, zuletzt genutzten Orientierungswinkel der Zeichenfläche zu löschen. Es gibt jedoch eine Methode, die einen Button dafür zu Tage fördert; gut versteckt im "Special Menü". Um daran zu kommen muss der gleichlautende Eintrag in der Registry auf `1` sein.  
+In der Arbeitsumgebung taucht dann ganz zum Schluss der Ordner "60 Indiv." auf, mit dem Befehl "Liste Zuletzt verwendet löschen".
+
+</div>
+```
+HKEY_CURRENT_USER\Software\GRAPHISOFT\ARCHICAD\ARCHICAD <version>\Special Menu
+
+
+<div class="code-example" markdown="1">
+
 Im <samp>Multiplizieren</samp> Dialog ist standardmäßig die sehr selten gebrauchte Option <samp>"Pfad auswählen"</samp> angehakt. Das ist recht nervig. Daher sollte man dem Schlüssel `Pick Path` auf `0` setzen. Damit wird diese Option standardmäßig deaktiviert.
 
 </div>
