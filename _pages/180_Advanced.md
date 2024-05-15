@@ -21,6 +21,7 @@ In der Arbeitsumgebung taucht dann ganz zum Schluss der Ordner "60 Indiv." auf, 
 </div>
 ```
 HKEY_CURRENT_USER\Software\GRAPHISOFT\ARCHICAD\ARCHICAD <version>\Special Menu
+```
 
 
 <div class="code-example" markdown="1">
