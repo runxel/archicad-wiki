@@ -41,3 +41,13 @@ Graphisoft hat auf seiner Webseite einige [Beispielskripte](https://graphisoft.c
 Zum einen gibt es die allgemeine Dokumentation des [JSON Interfaces](https://archicadapi.graphisoft.com/JSONInterfaceDocumentation/#Introduction).
 
 Ebenso findet sich eine Dokumentation für den [API Python Wrapper](https://archicadapi.graphisoft.com/archicadPythonPackage/archicad.html).
+
+## Mehrere Archicads
+Für den den durchaus öfter vorkommenden Fall von mehreren zugleich laufenden Instanzen von Archicad erfolgt ein Zugriff über die JSON-Verbindung natürlich nicht zufällig. Stattdessen sollte man den Zugriffsport spezifizieren:
+
+```python
+conn = ACConnection.connect(19723)
+```
+
+Ports werden von `19723` (bis zur `19744`?) verteilt. Allerdings kann es natürlich passieren, dass ein anderes Programm bereits einen Port verwendet. Um sicher zu gehen öffnet man im entsprechenden Archicad die Python-Palette, klickt auf das "(i)" und sieht dort, welchen Port Archicad momentan verwendet.
+![alt text](../img/python_palette.png)
