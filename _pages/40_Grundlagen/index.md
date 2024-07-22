@@ -51,7 +51,8 @@ Siehe auch [Do's and Dont's](/dos-donts#nullpunkt)
 
 
 ## Verschneidung
-In Archicad gilt als Grundvoraussetzung für Verschneidungen (oder Verbindungen), dass die Konstruktions-Elemente im Raum zusammentreffen müssen. Alle Konstruktions-Elemente werden in allen Sichten bereinigt, sofern sie sich durchdringen. Im Fall von kollidierenden Schalen, Morphs und Dächern müssen diese außerdem mit den Befehlen des Verbindungsmenüs [verschmolzen](https://help.graphisoft.com/AC/23/GER/_AC23_Help/040_ElementsVB/040_ElementsVB-107.htm#XREF_29201_Merge_Elements) oder [getrimmt](https://help.graphisoft.com/AC/23/GER/_AC23_Help/040_ElementsVB/040_ElementsVB-100.htm#XREF_73985_Trim_Elements_with) werden.  
+In Archicad gilt als Grundvoraussetzung für Verschneidungen (oder Verbindungen), dass die Konstruktions-Elemente im Raum zusammentreffen müssen. Alle Konstruktions-Elemente werden in allen Sichten bereinigt, sofern sie sich durchdringen. Bei Wänden gilt weiterhin, das sich die Referenzlinien in der Grundrissprojektion berühren und es eine volumetrische Überschneidung der Wände geben muss.  
+Im Fall von kollidierenden Schalen, Morphs und Dächern müssen diese zusätzlich mit den Befehlen des Verbindungsmenüs [verschmolzen](https://help.graphisoft.com/AC/23/GER/_AC23_Help/040_ElementsVB/040_ElementsVB-107.htm#XREF_29201_Merge_Elements) oder [getrimmt](https://help.graphisoft.com/AC/23/GER/_AC23_Help/040_ElementsVB/040_ElementsVB-100.htm#XREF_73985_Trim_Elements_with) werden.  
 
 Die resultierende Verschneidung hängt von den _Baustoff-Prioritäten_ der Elemente ab. Das Element bzw. die Schicht mit dem Baustoff der höheren Priorität schneidet das Element mit der niedrigeren Priorität. Dies passiert bei den folgenden Elementen: Wand, Träger, Stütze, Decke, Dach, Schale, Morph.
 

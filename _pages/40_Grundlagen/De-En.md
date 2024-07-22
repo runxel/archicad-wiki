@@ -10,22 +10,6 @@ Mapping von der deutschen Sprachversion auf die englische. Als Hilfe bei der Ver
 _Anmerkung: Work in Progress :)_
 
 
-**Elemente Bearbeiten** | **Editing Elements**
-|  :---   |   :---   |
-Trimmen | Trim
-Längenänderung 
-Größenänderung | Resize
-Splitten | Split
-Abrunden/Abschrägen | Fillet/Chamfer
-Verbinden | Intersect
-Anpassen | Adjusting
-Versatz | Offset Edge
-| Adjust Elements to Slabs
-| Consolidate Lines and Fills in Drawing Windows
-| Explode into Current View
-
-
-
 | Deutsch | Englisch |
 |  :---   |   :---   |
 **Werkzeuge**    | **Tools**
@@ -72,6 +56,19 @@ Zeichnung                     | Drawing
 Ausgabeinhalte                | Issue Contents
 Ausschnitt-Mappe              | View Map
 Ausschnittname                | View Name
+ | 
+**Elemente Bearbeiten**     | **Editing Elements**
+Trimmen                     | Trim
+Größenänderung              | Resize
+Splitten                    | Split
+Abrunden/Abschrägen         | Fillet/Chamfer
+Verbinden                   | Intersect
+Anpassen                    | Adjusting
+Versatz                     | Offset Edge
+Elemente an Decken anpassen | Adjust Elements to Slabs
+Linien-Vereinigung          | Consolidate Lines
+Schraffuren-Vereinigung     | Consolidate Fills
+In 2D-Elemente zerlegen     | Explode into Current View
  | 
 **Schraffur**        | **Fill**
 Zeichnungsschraffur  | Drafting Fill
