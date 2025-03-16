@@ -67,7 +67,7 @@ Kann in [QGis](https://qgis.org/) importiert und von dort in eine [DXF](#dxf) ex
 
 ### City GML
 Normierte 3D Darstellung von GIS Anwendungen, und oft auch bei offiziellen Stellen (wie Landesvermessungsämtern) zu bekommen.  
-Umwandlung mittels des [FZKViewers](https://www.iai.kit.edu/1302.php) des Karlsruher Instituts für Technologe (KIT) in [STL](#stl) oder IFC.
+Umwandlung mittels des [KIT-Modellviewers](https://www.iai.kit.edu/1302.php) (früher FZKViewer) des Karlsruher Instituts für Technologe (KIT) in [STL](#stl) oder IFC.
 
 ### e57
 Archicad kann e57 Punktwolken einlesen (wenn auch mit einigen Einschränkungen; u.a. wird eine spezielle LCF beim Import generiert, die Darstellung ist also mit GDL begrenzt manipulierbar), allerdings ist es sehr empfehlenswert große Punktwolken mit [CloudCompare](https://www.danielgm.net/cc/) auszudünnen – zur Erhaltung von Nerven und Rechenleistung.  
