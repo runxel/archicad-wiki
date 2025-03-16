@@ -1,5 +1,7 @@
 # .gitignore
 
+*.cache
+
 # jekyll stuff
 _site/
 _posts/
@@ -8,14 +10,9 @@ _img/
 .jekyll-cache
 .jekyll-metadata
 
-
 # don't include links
 *.lnk
 *.url
-
-# editor stuff
-.vscode
-*.code-*
 
 # don't include WIP, notes, etc.
 _notready/
@@ -23,3 +20,38 @@ _notready/
 *.pln
 *.pla
 *.mod
+
+# Windows
+._*
+Thumbs.db
+ehthumbs.db
+.Bridge*
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+**/Network Trash Folder/
+**/Temporary Items/
+.apdisk
+.directory
+
+# Linux file backups
+*~
+
+# IDE related
+*.sublime-*
+.vscode
+.vscodeignore
+*.code-workspace
