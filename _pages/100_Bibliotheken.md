@@ -22,6 +22,13 @@ Die Migration eines Objekts basiert auf seiner GUID.
 Wenn das 'alte' Objekt platziert, aber nicht mehr _geladen_ ist, dann wird das Objekt auf seine neue Version migriert (vorausgesetzt, das Migrationsskript ist ordnungsgemäß).  
 Solange sich das 'alte' Objekt immer noch in einer geladenen Bibliothek (dazu zählt auch die _Eingebettete Bibliothek_!) befindet, findet **keine** Migration statt.
 
+Es hat sich daher folgender Workflow etabliert, besonders im Hinblick auf von der BIMCloud zu ladende Daten:
+1. Alte Datei in neuerer Version öffnen, im Dialog "Bibliotheken migrieren" anwählen. 
+2. Diese Datei nun als `.pla` (Archiv) schreiben.
+3. PLA öffnen und die enthaltenen Bibliothekselemente in frei wählbaren (aber leicht wiederzufindenen) Ordner schreiben
+4. PLA schließen, den eben erzeugten Ordner nehmen und daraus **nur** den Auszug aus den Migrationsbibliotheken speichern. 
+5. Ursprünglich migrierte Datei nehmen, die automatisch hinzugefügten Migrationsbibliotheken entfernen und gegen das erstelle Extrakt austauschen.
+
 
 ## Objekte aus anderen Bibliotheken übernehmen
 Mittlerweile muss man Elemente aus geladenen Bibliotheken nicht mehr händisch oder semi-manuell (siehe unten) heraustragen. Es gibt nun im Bibliothekenmanager einen Button namens "<samp>Platzierte Objekte der gewählten Bibliothek einbetten</samp>" (im Bild rot gerahmt).
