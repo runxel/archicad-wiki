@@ -5,12 +5,19 @@ permalink: /advanced/
 nav_order: 180
 ---
 
+# Spezielle Verzeichnisse
+Mit der in 28.1 eingeführten Updateoption lädt Archicad automatisch Updates herunter, wie aus anderen Programmen bekannt.
+Der Installer wird in folgendes Verzeichnis gespeichert:
+- Mac: `~/Library/Caches/Graphisoft/ACUpdate/`
+- Windows: `C:\Users\<UserProfile>\AppData\Local\GRAPHISOFT\ACUpdate`
+
+
 # Registry
 In der Registry (Windows) lassen sich einige Optionen einstellen, die in den normalen Einstellungen nicht zu finden, und oft auch undokumentiert sind. Dennoch kann es sinnvoll sein, hier etwas einzustellen – wenn man weiß, was man tut. Allerdings ist in jedem Fall zu beachten, dass die Einstellungen in der Registry _rein lokal_ sind, was vor allem im Teamwork ein beachtenswerter Faktor ist. Es müssten dann bei _jedem_ Rechner die _selben_ Einstellungen vorgenommen werden, um Konsistenz zu gewährleisten.  
 Wie bei allen Registry-Manipulationen gilt: Auf eigene Gefahr und ohne Gewähr.
 
 _Auf dem Mac unterwegs?_  
-Auch dort kann man Werte ändern. Statt einer zentralen Aufbewahrung setzt Apple jedoch auf die unübersichtlichen `.plist`s. Im konkreten Fall schaut man in die Datei **`~/Library/Preferences/com.graphisoft.AC [version].0.0 XXX v1.plist`**. [Siehe auch.](https://community.graphisoft.com/t5/Installation-update/Altering-ARCHICAD-behavior-Registry-or-Preferences/ta-p/304121)
+Auch dort kann man Werte ändern. Statt einer zentralen Aufbewahrung setzt Apple jedoch auf die unübersichtlichen `.plist`s. Zwar liegt die Datei auffindbar unter `~/Library/Preferences/com.graphisoft.AC [version].0.0 XXX v1.plist` ([siehe auch](https://community.graphisoft.com/t5/Installation-update/Altering-ARCHICAD-behavior-Registry-or-Preferences/ta-p/304121).), allerdings sollte man tunlichst diese nicht öffnen und abspeichern. Stattdessen verwendet man den [PrefsEditor](https://apps.tempel.org/PrefsEditor/), um die `.plist`s zu bearbeiten.
 
 
 <div class="code-example" markdown="1">
@@ -125,6 +132,17 @@ Um Hotlinks separat upzudaten setzt man den Schlüssel `Hotlink Module Update` a
 ```
 HKEY_CURRENT_USER\Software\GRAPHISOFT\ARCHICAD\ARCHICAD <version>\Hotlink
 ```
+
+
+<div class="code-example" markdown="1">
+
+Zur Umgehung des Problems einer endlosen Druckerverbindungssuche unter Windows den folgenden Schlüssel von `0` auf `4` setzen.
+[<sup>Quelle</sup>](https://community.graphisoft.com/t5/Installation-update/Please-wait-for-printer-connection-or-cancel-connection/m-p/602067/highlight/true#M36996)
+</div>
+```
+HKEY_CURRENT_USER\SOFTWARE\GRAPHISOFT\Archicad\Archicad <version>\PrintPlot\Discard Print Settings
+```
+
 
 # Extending Archicad
 Es ist möglich seine eigene Dokumentation (z.B. ein BIM-Playbook) und eigene Links zu Hilfen in Archicad unterbringen. Dazu muss im Archicad-Installationsordner ein neuer Unterordner erstellt werden: Für PDFs `Dokumentation2` und für Links zu Onlineinhalten `WWW-Links2`. (Achtung, diese Namen sind lokalisiert. In der Int'l/US Version heißen die Ordner "Documentation2" und "WWWLinks2".)  
