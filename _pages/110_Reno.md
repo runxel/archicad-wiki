@@ -18,6 +18,7 @@ Wenn jetzt die Abbruchelemente in der Ansicht/im Schnitt überschrieben werden, 
 
 
 ## Varianten
-Der Umbaufilter lässt sich als Variantentool missbrauchen. Zwar gibt es nur drei Status: "Bestand", "Abbruch", und "Neubau", allerdings lassen sich beliebig viele Filter erstellen. In Verbindung mit der Funktion <samp>Nur auf aktuellem Umbaufilter zeigen</samp> (das ist der Button rechts) verfügt man über ein einfaches Variantentool.  
+Der Umbaufilter ließ sich als Variantentool missbrauchen. Zwar gibt es nur drei Status: "Bestand", "Abbruch", und "Neubau", allerdings lassen sich beliebig viele Filter erstellen. In Verbindung mit der Funktion <samp>Nur auf aktuellem Umbaufilter zeigen</samp> (das ist der Button rechts) verfügte man über ein einfaches Variantentool.  
 ![Umbaufilterpalette](../img/palette-umbau.png)  
-Der Nachteil ist so natürlich, dass wenig Übersicht herrscht, besonders bei sehr vielen Varianten. Modellelemente gehen dann gerne mal "verloren". Weiterhin ist der Option recht restriktiv. Braucht man bestimmte Elemente zwar mehrfach, aber nicht überall, muss man sie doppelt zeichnen. Das artet gern in Chaos aus. Man sollte von der Verwendung im Teamwork eher absehen.
+Der Nachteil war so natürlich, dass wenig Übersicht herrscht, besonders bei sehr vielen Varianten. Modellelemente gehen dann gerne mal "verloren". Weiterhin ist die Option recht restriktiv. Brauchte man bestimmte Elemente zwar mehrfach, aber nicht überall, musste man sie doppelt zeichnen. Das artete gern in Chaos aus, vom Teamwork ganz zu schweigen.  
+Seit Version 27 zum Glück nicht mehr nötig!
