@@ -11,6 +11,12 @@ Der Installer wird in folgendes Verzeichnis gespeichert:
 - Mac: `~/Library/Caches/Graphisoft/ACUpdate/`
 - Windows: `C:\Users\<UserProfile>\AppData\Local\GRAPHISOFT\ACUpdate`
 
+# Archicad Startfenster
+## Einträge editieren/reduzieren
+Mit zunehmender Anzahl der Projekte im Startfenster wird es nicht nur unübersichtlich, sondern auch die Performance scheint zu leiden. Nun kann man selbstverständlich diese per X hinter dem Projekt dieses aus der Liste entfernen – nur wer will das schon bei vielen Dateien machen?  
+Man kann die Liste komplett leeren, indem man die Datei "Recent Documents (Project).prf" löscht, wenn Archicad nicht läuft.  
+Auf Windows liegt sie unter `C:\Users\<user>\AppData\Roaming\Graphisoft\Archicad <version>` 
+und auf Mac unter `~/Library/Preferences/Graphisoft/Archicad <version>`.
 
 # Registry
 In der Registry (Windows) lassen sich einige Optionen einstellen, die in den normalen Einstellungen nicht zu finden, und oft auch undokumentiert sind. Dennoch kann es sinnvoll sein, hier etwas einzustellen – wenn man weiß, was man tut. Allerdings ist in jedem Fall zu beachten, dass die Einstellungen in der Registry _rein lokal_ sind, was vor allem im Teamwork ein beachtenswerter Faktor ist. Es müssten dann bei _jedem_ Rechner die _selben_ Einstellungen vorgenommen werden, um Konsistenz zu gewährleisten.  
