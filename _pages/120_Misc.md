@@ -20,7 +20,7 @@ Dabei ist zu beachten, dass im <samp>Multiplizieren</samp> Dialog eine ähnliche
 ### Autotexte verwenden
 Archicad verwendet das Konzept von sogenannten Autotexten, das sind Schlüsselwörter in eckigen Klammern (ala `<AUTOTEXT>`). Archicad wertet diese aus und ersetzt dann an dieser Stelle diesen Text durch den entsprechenden hinterlegten Text.  
 Diese Autotexte funktionieren auch in GDL Objekten und selbst in im Quelltext davon.  
-Eine Auflistung aller möglichen Autotexte im [Helpcenter](https://helpcenter.graphisoft.com/de/user-guide/125474/). Die Autotexte lassen sich auch beim [Umbenennen](https://helpcenter.graphisoft.de/handbuecher/handbucher-zu-archicad-22/hilfe-zu-archicad-22/dokumentation/publizieren/publisher/) von Publisher-Elementen verwenden; einige spezielle Autotexte sind dort direkt verfügbar, alle anderen können aber trotzdem eingegeben werden.
+Eine Auflistung aller möglichen Autotexte im [Helpcenter](https://helpcenter.graphisoft.com/de/user-guide/125474/). Die Autotexte lassen sich auch beim [Umbenennen](https://helpcenter.graphisoft.de/handbuecher/handbucher-zu-archicad-22/hilfe-zu-archicad-22/dokumentation/publizieren/publisher/) von Publisher-Elementen verwenden; einige spezielle Autotexte sind dort direkt verfügbar, alle anderen können aber trotzdem eingegeben werden. Achtung bei Ordnern: Die Autotexte funktionieren leider nur bei _verknüpften Ordnern_, bei händisch erstellten dagegen nicht!
 
 
 ### Favoriten
