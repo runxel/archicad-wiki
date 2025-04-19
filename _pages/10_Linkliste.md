@@ -13,8 +13,8 @@ Ein Sammelort für Links, mehr oder weniger sortiert. Muss nicht immer zwangslä
 ## Offizielle Archicad Webseiten
 - [Helpcenter Int'l](https://helpcenter.graphisoft.com/)
 - [Helpcenter DE](https://helpcenter.graphisoft.de/)
-- [Deutsches Archicad-Forum](https://forum.graphisoft.de/)
-- [Internationales Forum](https://archicad-talk.graphisoft.com/)
+- Mittlerweile hat auch Graphisoft [angefangen](https://support.graphisoft.com/hc/de/categories/25468802122001-Nutzung-von-Archicad) eine Art "Wiki" oder FAQ aufzubauen. Ein Schelm, wer da Kopie erkennt ;) Spaß beseite, es werden dort etliche Themen übersichtlich und gut erklärt.
+- [Anwenderforum](https://community.graphisoft.com)
 
 ## Die wichtigsten Blogs
 - [Shoegnome](http://www.shoegnome.com/writing/)
