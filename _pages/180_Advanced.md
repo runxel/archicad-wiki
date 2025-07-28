@@ -150,6 +150,16 @@ HKEY_CURRENT_USER\SOFTWARE\GRAPHISOFT\Archicad\Archicad <version>\PrintPlot\Disc
 ```
 
 
+<div class="code-example" markdown="1">
+
+Um den Winkel der "Schnellrotationsfunktion" (Quickrotate; in Version 29 neu eingeführt) zu ändern, kann man den folgenden Schlüssel (Stringwert) ändern.  
+Standardmäßig ist dieser auf 90° eingestellt.
+</div>
+```
+HKEY_CURRENT_USER\SOFTWARE\GRAPHISOFT\Archicad\Archicad <version>\QuickRotate\QuickRotateAngle
+```
+
+
 # Extending Archicad
 Es ist möglich seine eigene Dokumentation (z.B. ein BIM-Playbook) und eigene Links zu Hilfen in Archicad unterbringen. Dazu muss im Archicad-Installationsordner ein neuer Unterordner erstellt werden: Für PDFs `Dokumentation2` und für Links zu Onlineinhalten `WWW-Links2`. (Achtung, diese Namen sind lokalisiert. In der Int'l/US Version heißen die Ordner "Documentation2" und "WWWLinks2".)  
 Anschließend muss in den Arbeitsumgebungseinstellungen noch der entsprechende Menüeintrag erzeugt werden. Dieser heißt `PDF2`, bzw. `URL2` respektive.  
