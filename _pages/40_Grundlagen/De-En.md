@@ -145,6 +145,16 @@ Segment                     | Segment
 Durchbruch                  | Hole
  | 
 **Geländer**                              | **Railing**
+Segment          | Segment
+Erster Handlauf  | Toprail
+Zweiter Handlauf | Handrails
+Gurte            | Rails
+Innenpfosten     | Inner Posts
+Paneele          | Panels
+Knoten           | Node
+Pfosten          | Post
+Verbindung       | Connections
+Enden            | Ends
 Unabhängige Segmente und Knoten erstellen | Create Independent Segments and Nodes
 Muster in Segmentlänge umwandeln          | Convert Pattern to Segment Length
  | 
@@ -191,6 +201,21 @@ Rahmen manuell angepasst         | Manually resized frame
 Zeichnung auf Rahmen beschneiden | Crop Drawing to Frame
 Druckbaren Rahmen hinzufügen     | Add printable Border
 Rahmenversatz                    | Border offset
+ | 
+ **HKLSE** | **MEP**
+HKLSE-Voreinstellungen          | Route Specifications
+Lüftungskanäle                  | Ducts
+ Lüftungskanalsegment           |  Duct Segment
+ Lüftungskanalbogen             |  Duct Elbow
+ Lüftungskanalabzweig           |  Duct Branch
+ Lüftungskanal-Übergang         |  Duct Transition
+Rohre                           | Pipes
+ Rohrsegment                    |  Pipe Segment
+ Rohrbogen                      |  Pipe Elbow
+ Rohrabzweig                    |  Pipe Branch
+ Rohr-Übergang                  |  Pipe Transition
+Kabelträger                     | Cable Carriers
+ Kabelträgersegment             |  Cable Carrier Segment
  | 
 **Render**                      | <!--  -->
 Allgemeine Optionen             | General Options
