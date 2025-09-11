@@ -17,7 +17,8 @@ Achtung bei Projekten mit Hotlinks! Hotlinks lassen sich nur insgesamt reservier
 
 
 ## Build Nummer
-Die Buildnummern von Archicad zu Teamworkserver müssen nicht gleich sein, aber jedoch im selben Hunderter-Abschnitt sein. Beispiel: Die Builds 4019 und 4032 sind kompatibel zu einander. Alle Builds im Bereich 40xx wären möglich nebeneinander zu betreiben.
+Die Buildnummern von Archicad zu Teamworkserver müssen nicht gleich sein, aber jedoch im selben Hunderter-Abschnitt sein. Beispiel: Die Builds 4019 und 4032 sind kompatibel zu einander. Alle Builds im Bereich 40xx wären möglich nebeneinander zu betreiben.  
+In Archicad 27 wurde das Limit erhöht: Seit dem sind alle Builds im 500-er Abschnitt zu einander kompatibel. Beispiel: Archicad 28.2.0 hat die Buildnummer 5000, 28.2.2 die Nr. 5200.
 
 
 ## Troubleshooting
