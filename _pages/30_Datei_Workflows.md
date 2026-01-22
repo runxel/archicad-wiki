@@ -17,7 +17,7 @@ Für noch ältere Dateien braucht man einen [File Converter](https://www.graphis
 
 **Folgende Formate sind direkt importierbar:**  
 (Entweder über Drag&Drop oder über Ablage > Interoperabilität > Dazuladen…)  
-mod, 2dl, emf, wmf, dwf, [dwg](#dwg), HPGL (.plt), IFC, skp, [kmz](#kmz) (Google Earth), [3dm](#3dm), [dae](#dae) (Collada), [stl](#stl), [FBX](#fbx), [OBJ](#obj)(since v29)   
+mod, 2dl, emf, wmf, dwf, [dwg](#dwg), HPGL (.plt), IFC, skp, [kmz](#kmz) (Google Earth), [3dm](#3dm), [dae](#dae) (Collada), [stl](#stl), [FBX](#fbx) (seit v27), [OBJ](#obj) (seit v29)   
 <sub>[Vollständige Auflistung](https://helpcenter.graphisoft.com/knowledgebase/25765/)</sub>
 
 Tipp: [Online 3DViewer](https://3dviewer.net/) / [online 3D converter](https://3dconverter.net/)
