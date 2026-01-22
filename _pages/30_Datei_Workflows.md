@@ -17,10 +17,10 @@ Für noch ältere Dateien braucht man einen [File Converter](https://www.graphis
 
 **Folgende Formate sind direkt importierbar:**  
 (Entweder über Drag&Drop oder über Ablage > Interoperabilität > Dazuladen…)  
-mod, 2dl, emf, wmf, dwf, [dwg](#dwg), HPGL (.plt), IFC, skp, [kmz](#kmz) (Google Earth), [3dm](#3dm), [dae](#dae) (Collada), [stl](#stl), [FBX](#fbx)  
+mod, 2dl, emf, wmf, dwf, [dwg](#dwg), HPGL (.plt), IFC, skp, [kmz](#kmz) (Google Earth), [3dm](#3dm), [dae](#dae) (Collada), [stl](#stl), [FBX](#fbx), [OBJ](#obj)(since v29)   
 <sub>[Vollständige Auflistung](https://helpcenter.graphisoft.com/knowledgebase/25765/)</sub>
 
-Tipp: [Online 3DViewer](https://3dviewer.net/)
+Tipp: [Online 3DViewer](https://3dviewer.net/) / [online 3D converter](https://3dconverter.net/)
 
 ### DWG
 Direkt in Archicad importierbar.  
@@ -39,9 +39,21 @@ Es sollte der Archicad-Maßstab vor dem Import beachtet werden. Dieser muss vor 
 Collada Dateien sind direkt in Archicad importierbar. Dabei wird ein _Objekt_ erzeugt.
 Auch der Export zu Collada funktioniert sehr gut und stellt ein solides Austauschformat für Geometrie dar (z.B. nach Blender).
 
+### FBX
+Weit verbreitetes, aber proprietäres Austauschformat für 3D Inhalte.  
+Kann seit der Version 27 endlich nativ gelesen und geschrieben werden.  
+Musste bis zur v26 in ein anderes Format umgewandelt werden, z.B. mittels dem kostenfreien [Autodesk FBX Converter](https://www.autodesk.com/developer-network/platform-technologies/fbx-converter-archives).  
+Alternativ gibt es mit [Modelport](https://archvista.com/modelport/) ein sehr potentes Plugin für Archicad.
+
 ### STL
-Stereolithographie Dateien lassen sich direkt in Archicad importieren. Dabei wird ein _Morph_ erzeugt.  
-Oft sind zu importierende Meshes jedoch sehr komplex, wodurch diese Methode u.U. nicht empfehlenswert ist; stattdessen sollte lieber eine [DAE](#dae) verwendet werden.
+Stereolithographie Dateien kommen aus der Welt des 3D-Drucks und lassen sich direkt in Archicad importieren (und exportieren). Dabei wird ein _Morph_ erzeugt.  
+STLs gelten als fürchterliches Format, da sie unnötig groß sind, aber gleichzeitig nur eine "Suppe" an Dreiecken darstellt. Die Folge sind häufig Darstellungsprobleme. Außerdem sind keine Texturen und Farben möglich. Wie OBJ ist es einheitenlos, es kann also zu falschen Skalierungen beim Import kommen.  
+Mein Tipp: Stattdessen lieber [DAE](#dae) nutzen.
+
+### OBJ
+Seit Version 29 kann Archicad OBJ nativ lesen und speichern.  
+Zuvor musste man diese z.B. erst in [Meshlab](#meshlab) importieren und als [DAE](#dae) abspeichern: "File > Export Mesh as…".  
+OBJ ist wie STL einheitenlos, sodass es zu falschen Skalierungen kommen kann.
 
 ### 3dm
 [Rhino](https://rhino3d.com/) Dateien können seit Archicad 20 nativ (ohne Plugin) importiert und exportiert werden.
@@ -57,6 +69,14 @@ Shapefiles haben eine Größenbeschränkung von 2 GB. Als Ersatz kommt auch oft 
 
 Aufpassen muss man bezüglich der verwendeten Koordinatensysteme; siehe dazu auch diese [Webseite](https://ihatecoordinatesystems.com/).
 
+### 3DS
+Dateiformat von Autodesk 3ds Max, kann nicht über "Dazuladen" importiert werden, sondern hat stattdessen einen eigenen Dialog unter "Interoperabilität" (sofern das Goodie installiert wurde).
+Erstellt ein _Objekt_. Allerdings werden dabei _keine_ Solids erstellt (Schnittdarstellungen werden ev. nicht wie erhofft aussehen).  
+Kann vorher mit [Meshlab](#meshlab), wenn gewünscht, vereinfacht werden.
+
+### MAX
+Das native Dateiformat von 3ds Max `.max` kann nur von 3ds Max selbst gelesen werden. Selbst alle mir bekannten Konvertierer benötigen ein installiertes 3ds auf dem Rechner.
+
 ### GeoJSON
 Ähnlich wie [SHP](#shp) ist [GeoJSON](https://geojson.org/) ein allgemeines Format, um geographische Strukturen zweidimensional abzubilden.  
 Kann in [QGis](https://qgis.org/) importiert und von dort in eine [DXF](#dxf) exportiert werden. Eine Vorschau im Browser ist auf [Kepler.gl](https://kepler.gl/demo) möglich.
@@ -67,7 +87,8 @@ Kann in [QGis](https://qgis.org/) importiert und von dort in eine [DXF](#dxf) ex
 
 ### City GML
 Normierte 3D Darstellung von GIS Anwendungen, und oft auch bei offiziellen Stellen (wie Landesvermessungsämtern) zu bekommen.  
-Umwandlung mittels des [KIT-Modellviewers](https://www.iai.kit.edu/1302.php) (früher FZKViewer) des Karlsruher Instituts für Technologe (KIT) in [STL](#stl) oder IFC.
+Umwandlung mittels des [KIT-Modellviewers](https://www.iai.kit.edu/1302.php) (früher FZKViewer) des Karlsruher Instituts für Technologe (KIT) in [STL](#stl) oder IFC.  
+Die dort erzeugten IFC können allerdings oft nicht direkt in Archicad verwendet werden, da Archicad nur IFC mit einem `IfcBuilding` verarbeiten kann, der KIT-Modellviewer schreibt allerdings eine IFC mit mehreren IfcBuildings.
 
 ### e57
 Archicad kann e57 Punktwolken einlesen (wenn auch mit einigen Einschränkungen; u.a. wird eine spezielle LCF beim Import generiert, die Darstellung ist also mit GDL begrenzt manipulierbar), allerdings ist es sehr empfehlenswert große Punktwolken mit [CloudCompare](https://www.danielgm.net/cc/) auszudünnen – zur Erhaltung von Nerven und Rechenleistung.  
@@ -91,25 +112,8 @@ Die Datei muss aus drei Spalten bestehen, und es dürfen nur numerische Eingaben
 
 </details>
 
-### FBX
-Weit verbreitetes, aber proprietäres Austauschformat für 3D Inhalte.  
-Kann seit der Version 27 endlich nativ gelesen und geschrieben werden.  
-Musste bis zur v26 in ein anderes Format umgewandelt werden, z.B. mittels dem kostenfreien [Autodesk FBX Converter](https://www.autodesk.com/developer-network/platform-technologies/fbx-converter-archives).  
-Alternativ gibt es mit [Modelport](https://archvista.com/modelport/) ein sehr potentes Plugin für Archicad.
-
-### 3DS
-Dateiformat von Autodesk 3ds Max, kann nicht über "Dazuladen" importiert werden, sondern hat stattdessen einen eigenen Dialog unter "Interoperabilität".
-Erstellt ein _Objekt_. Allerdings werden dabei _keine_ Solids erstellt (Schnittdarstellungen werden ev. nicht wie erhofft aussehen).  
-Kann vorher mit [Meshlab](#meshlab), wenn gewünscht, vereinfacht werden.
-
 ### KMZ
 KMZ Dateien sind komprimierte `.kml` Dateien. KML (_"Keyhole Markup Language"_) ist ein XML-basiertes Format, das Punkte, Linien, Polygone, sowie mit der Geometrie verbundene Attribute unterstützt. Bekannt ist das Format vor allem durch die Verwendung in Google Earth. [°](http://justsolve.archiveteam.org/wiki/KML)
-
-### MAX
-Das native Dateiformat von 3ds Max `.max` kann nur von 3ds Max selbst gelesen werden. Selbst alle mir bekannten Konvertierer benötigen ein installiertes 3ds auf dem Rechner.
-
-### OBJ
-Die obj-Datei in [Meshlab](#meshlab) importieren und als [STL](#stl) oder als [DAE](#dae) abspeichern: "File > Export Mesh as…"
 
 ### RFA
 Revit Families (`.rfa`) und Revit Dateien (`.rvt`) können zumindest ihrer Geometrie habhaft gemacht werden.  
@@ -121,6 +125,10 @@ Siehe [RFA](#rfa)
 
 ### SAF
 Neu hinzugekommen in Archicad 24 ist das `Structural Analysis Format`, oder kurz [SAF](http://saf.guide/) – tatsächlich aber handelt es sich um gar kein eigenes Dateiformat, sondern ist eine Excel Datei.
+
+### .bim
+Das sogenannte "dotbim" Format ist ein modernes und minimalistisches Format, dass triangulierte Meshes mit verbundenen Informationen serialisiert (JSON) speichert und als neutrales Austauschformat gedacht ist.  
+[Bimdots](https://bimdots.com/product/dotbim-in-out/) bietet ein kostenloses Plugin für den Import und Export an.
 
 ---
 
