@@ -164,3 +164,51 @@ HKEY_CURRENT_USER\SOFTWARE\GRAPHISOFT\Archicad\Archicad <version>\QuickRotate\Qu
 Es ist möglich seine eigene Dokumentation (z.B. ein BIM-Playbook) und eigene Links zu Hilfen in Archicad unterbringen. Dazu muss im Archicad-Installationsordner ein neuer Unterordner erstellt werden: Für PDFs `Dokumentation2` und für Links zu Onlineinhalten `WWW-Links2`. (Achtung, diese Namen sind lokalisiert. In der Int'l/US Version heißen die Ordner "Documentation2" und "WWWLinks2".)  
 Anschließend muss in den Arbeitsumgebungseinstellungen noch der entsprechende Menüeintrag erzeugt werden. Dieser heißt `PDF2`, bzw. `URL2` respektive.  
 [[Quelle](https://community.graphisoft.com/t5/Setup-License-forum/Error-WWWLinks2-amp-Help2/)]
+
+
+# Run Flags
+Folgende Flags (die allermeisten undokumentiert) gibt es für Archicad:
+
+```
+-demo
+-REPAIR
+-RECOVER
+-USESTARTERSETTINGS
+-DISABLERECOVERYDIALOG
+-NSDocumentRevisionsDebugMode
+-twconfig=
+-twlog=
+-twfunction=
+-twserver=
+-twuser=
+-twpassword=
+-twproject=
+-twsourceserver=
+-twsourceproject=
+-twtargetfolder=
+-twhotlinklistfolder=
+-twplanfiletype=
+-forceaccessdialog
+-enabledialogs
+-latestProjectSettings
+-bringtofront
+-newandreset
+-useprofile=
+-uselibrary=
+-usetwlibrary=
+-openasplan
+-filespecificparameters=
+-terminateonfirstassert
+-launcher=
+-loginOnly
+-ipcdirect=
+-ipccontact=
+-appRegistrySpaceName
+-logFilesDir
+-randomtest  (?)
+-repeatnumber (?)
+-incrementseed (?)
+-select (?)
+-mode (?)
+-ARM (?)
+```

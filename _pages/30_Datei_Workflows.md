@@ -53,7 +53,7 @@ Mein Tipp: Stattdessen lieber [DAE](#dae) nutzen.
 ### OBJ
 Seit Version 29 kann Archicad OBJ nativ lesen und speichern.  
 Zuvor musste man diese z.B. erst in [Meshlab](#meshlab) importieren und als [DAE](#dae) abspeichern: "File > Export Mesh as…".  
-OBJ ist wie STL einheitenlos, sodass es zu falschen Skalierungen kommen kann.
+OBJ ist wie STL einheitenlos, sodass es zu falschen Skalierungen kommen kann. Außerdem unterstützt OBJ keine Polygone mit Löchern.
 
 ### 3dm
 [Rhino](https://rhino3d.com/) Dateien können seit Archicad 20 nativ (ohne Plugin) importiert und exportiert werden.

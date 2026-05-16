@@ -30,6 +30,9 @@ Morph            | Morph
 Freifläche       | Mesh
 Beschriftung     | Annotation
 Etikett          | Label
+Schnitt          | Section
+Ansicht          | Elevation
+Innenansicht     | Interior Elevation
 Marker-Werkzeuge | Markup Tools
 Änderungsmanager | Change Manager
  | 
@@ -201,6 +204,9 @@ Rahmen manuell angepasst         | Manually resized frame
 Zeichnung auf Rahmen beschneiden | Crop Drawing to Frame
 Druckbaren Rahmen hinzufügen     | Add printable Border
 Rahmenversatz                    | Border offset
+ | 
+**Innenansichtseinstellungen**   | **Interior Elevation (IE) Tool Settings**
+Verdeckende Wände ausblenden     | Exclude View Blocking Walls
  | 
  **HKLSE** | **MEP**
 HKLSE-Voreinstellungen          | Route Specifications
