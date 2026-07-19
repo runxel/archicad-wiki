@@ -69,6 +69,7 @@ Verbinden                   | Intersect
 Anpassen                    | Adjusting
 Versatz                     | Offset Edge
 Elemente an Decken anpassen | Adjust Elements to Slabs
+Verschmelzen                | Merge Elements
 Linien-Vereinigung          | Consolidate Lines
 Schraffuren-Vereinigung     | Consolidate Fills
 In 2D-Elemente zerlegen     | Explode into Current View
@@ -88,7 +89,7 @@ Transparentpause     | Trace
 Profile                        | Complex Profiles
 Ausgewähltes Profil übernehmen | Capture Profile of Selection
  | 
-**Auf Geschoss zeigen**                                 |**Show on Stories**
+**Auf Geschoss zeigen**                                 | **Show on Stories**
 Nur im Ursprungsgeschoss                                | Home Story Only
 Ursprungsgeschoss und ein Geschoss darüber              | Home & One Story Up
 Ursprungsgeschoss und ein Geschoss darunter             | Home & One Story Down
@@ -97,6 +98,19 @@ Nur im Geschoss darüber                                 | One Story Up
 Nur im Geschoss darunter                                | One Story Down
 In allen Geschossen                                     | All Stories
 In allen relevanten Geschossen                          | All Relevant Stories
+ | 
+**Grundrissdarstellung**    | **Floor Plan Display**
+Projiziert mit Untersicht   | Projected with Overhead
+Projiziert                  | Projected
+Nur Schnitt                 | Cut Only
+Symbolischer Schnitt        | Symbolic Cut
+Nur Aufsicht                | Outlines Only
+Untersicht                  | Overhead All
+ | 
+**Projektion anzeigen**          | **Show Projection**
+Komplettes Element               | Entire Element
+Zum Grundrissbereich             | To Floor Plan Range
+Zur absoluten Darstellungsgrenze | By Absolute Display Limit
  | 
 Konstruktionsraster                 | Construction Grid Display
 Darstellung der Bearbeitungsebene   | Editing Plane Display
