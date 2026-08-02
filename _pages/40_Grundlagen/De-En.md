@@ -73,6 +73,7 @@ Verschmelzen                | Merge Elements
 Linien-Vereinigung          | Consolidate Lines
 Schraffuren-Vereinigung     | Consolidate Fills
 In 2D-Elemente zerlegen     | Explode into Current View
+Elemente in 3D filtern und schneiden | Filter and Cut Elements in 3D
  | 
 **Schraffur**        | **Fill**
 Zeichnungsschraffur  | Drafting Fill
@@ -85,6 +86,7 @@ Schichttrennlinien   | Skin Separator
 Anschlussreihenfolge | Junction Order
 Markierungsrahmen    | Marquee tool
 Suchen & Aktivieren  | Find & Select
+Aktivierte Elemente ändern | Edit Selection Set
 Transparentpause     | Trace
 Profile                        | Complex Profiles
 Ausgewähltes Profil übernehmen | Capture Profile of Selection
@@ -145,6 +147,10 @@ Spline-Hebel                        | Spline Handles
 Trimm-Körper                        | Trimming Bodies
 Öffnung, Schneidekörper             | Opening Cutting Bodies
 Verborgene Morph-Geometrie anzeigen | Hidden Morph Geometry
+ | 
+**Varianten** | **Design Options**
+Passive Elemente sperren | Edit Default only
+Passive Elemente einfärben | Fade environment
  | 
 **Bibliothek** | **Library**
 Platzierte Objekte der gewählten Bibliothek einbetten | Embed placed objects of selected library
